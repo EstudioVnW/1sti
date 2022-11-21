@@ -8,19 +8,19 @@ import Video from '../../assets/video/headerVideo.mp4';
 
 function App() {
   return (
-    <>
+    <S.Container>
       <Menu />
       <HeaderText />
-      <S.Video controls src={Video} autoPlay/>
-     {/* <S.ContentButton>
+      <S.Video src={Video} autoPlay controls />
+      <S.ContentButton>
         <Button hasIcon>
           Entenda Deep Tech
         </Button>
-        <Button noBackground>
+        <Button noColor>
           Nossos clientes
         </Button>
-      </S.ContentButton> */}
-    </>
+      </S.ContentButton>
+    </S.Container>
   );
 }
 

@@ -1,20 +1,23 @@
 import styled from 'styled-components'
 
-export const Video = styled.video`
-    /* position: fixed;
-    top: 0;
-    left: 0;
-    object-fit: cover;
-    width: 100%; */
-    width: 99vw;
-    height: 100vh;
+export const Container = styled.div`
+  height: 100vh;
 `;
 
+export const Video = styled.video`
+  position: absolute;
+  top: -4px;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  overflow-x: hidden;
+`;
 
 export const ContentButton  = styled.div`
-    display: flex;
+  padding: 2.438rem 0 0 4.563rem;
+  display: flex;
 
-    :button :last-child{
-        background-color: pink;
-    }
+  :button :last-child{
+    background-color: pink;
+  }
 `;

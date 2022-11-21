@@ -1,11 +1,10 @@
 import * as S from './styles';
-import Video from '../../../assets/video/headerVideo.mp4';
 
 function HeaderText() {
     return (
       <S.Container>
         <S.Title>Tecnologia <br /> com Alma e Impacto</S.Title>
-        <S.SubTitle>–</S.SubTitle>
+        <S.SubTitle line>–</S.SubTitle>
         <S.SubTitle>Para grandes desafios</S.SubTitle>
         <S.Text>
           Explore novos caminhos para resolver os desafios mais complexos de sua organização.
