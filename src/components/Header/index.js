@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <Menu />
-      <HeaderText />
+      {/* <HeaderText />
       <S.ContentButton>
         <Button hasIcon>
           Entenda Deep Tech
@@ -15,7 +15,7 @@ function App() {
         <Button noBackground>
           Nossos clientes
         </Button>
-      </S.ContentButton>
+      </S.ContentButton> */}
     </>
   );
 }

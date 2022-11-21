@@ -1,6 +1,5 @@
 import styled from 'styled-components'
 
-
 export const Container = styled.div`
   position: fixed;
   top: .625rem;
@@ -17,12 +16,12 @@ export const Container = styled.div`
   @media(max-width: 768px) {
     position: relative;
     top: 0;
+    padding: 0;
+    height: 100vh;
     justify-content: initial;
     align-items: initial;
 		flex-direction: column;
-    height: 100vh;
-    padding: 0;
-    background-color: var(--color_black);
+    overflow: hidden;
 	}
 `
 
@@ -45,21 +44,37 @@ export const Logo = styled.img`
     background-color: var(--color_white);
 	}
 `
-export const Close = styled.p`
+export const ButtonMenu = styled.button`
   display: none;
 
   @media(max-width: 768px) {
     display: flex;
     position: absolute;
     right: 1.589rem;
-    font-size: 2rem;
+    background: none;
+    cursor: pointer;
 	}
 `
-
+export const IconClose  = styled.img`
+  width: 1.635rem;
+`
+export const ContentMenu = styled.div`
+  
+  @media(max-width: 768px) {
+    height: 100%;
+    display: ${props => props.isOpenMenu ? 'flex' : 'none'};
+    flex-direction: column;
+    background-color: var(--color_black);
+    overflow: scroll;
+  }
+`
 export const Ul = styled.ul`
   display: flex;
 
   @media(max-width: 768px) {
+    padding-top: 6.5rem;
+    display: ${props => props.isOpenMenu ? 'flex' : 'none'};
+    background-color: var(--color_black);
 		flex-direction: column;
 	} 
 `

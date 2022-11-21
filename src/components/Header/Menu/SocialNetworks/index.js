@@ -7,7 +7,7 @@ import {
 
 import * as S from './styles';
 
-function SocialNetworks() {
+function SocialNetworks({ isOpenMenu }) {
 
   const renderSocialNetworks = (
     link,

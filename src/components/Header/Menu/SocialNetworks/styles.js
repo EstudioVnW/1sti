@@ -1,7 +1,13 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-  padding-left: 3.188rem;
+  display: none;
+  
+  @media(max-width: 768px) {
+    padding-left: 3.188rem;
+    display: flex;
+    flex-direction: column;
+  }
 `;
 
 export const Icon = styled.img`
