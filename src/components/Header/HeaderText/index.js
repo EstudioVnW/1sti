@@ -1,4 +1,5 @@
 import * as S from './styles';
+import Video from '../../../assets/video/headerVideo.mp4';
 
 function HeaderText() {
     return (

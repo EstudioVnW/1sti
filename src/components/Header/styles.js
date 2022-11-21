@@ -1,11 +1,13 @@
 import styled from 'styled-components'
 
-export const Video = styled.div`
-    position: fixed;
+export const Video = styled.video`
+    /* position: fixed;
     top: 0;
     left: 0;
     object-fit: cover;
-    width: 100%;
+    width: 100%; */
+    width: 99vw;
+    height: 100vh;
 `;
 
 

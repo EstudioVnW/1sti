@@ -2,8 +2,9 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
   padding: 0 4.625rem;
+  position: absolute;
+  z-index: 1;
 `
-
 export const Title = styled.h1`
   padding-top: 3.438rem;
   padding-bottom: 2rem;
