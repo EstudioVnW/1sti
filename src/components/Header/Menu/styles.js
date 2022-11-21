@@ -13,26 +13,81 @@ export const Container = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  
+  @media(max-width: 768px) {
+    position: relative;
+    top: 0;
+    justify-content: initial;
+    align-items: initial;
+		flex-direction: column;
+    height: 100vh;
+    padding: 0;
+    background-color: var(--color_black);
+	}
+`
+
+export const ContainerLogo  = styled.div`
+  @media(max-width: 768px) {
+    margin-top: 0.625rem;
+    padding: .563rem 0;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color_white);
+	}
 `
 
 export const Logo = styled.img`
   width: 2.813rem;
+
+  @media(max-width: 768px) {
+    background-color: var(--color_white);
+	}
+`
+export const Close = styled.p`
+  display: none;
+
+  @media(max-width: 768px) {
+    display: flex;
+    position: absolute;
+    right: 1.589rem;
+    font-size: 2rem;
+	}
 `
 
 export const Ul = styled.ul`
   display: flex;
+
+  @media(max-width: 768px) {
+		flex-direction: column;
+	} 
 `
 
 export const List = styled.li`
-  margin-right: 2.313rem;
+  margin-left: 2.313rem;
   font-size: 1.125rem;
   font-family: ${props => props.fontRegular ? 'GoshaSans' : 'GoshaSans-Bold'};
   color: var(--color_black);
   list-style: none;
   letter-spacing: 0px;
+  border-bottom: ${props => props.border && `2px solid var(--color_black)`};
   cursor: pointer;
   
   :hover {
-    border-bottom: 2px solid #0B1617;
+    border-bottom: 2px solid var(--color_black);
   }
+
+  @media(max-width: 850px) {
+    margin-left: 1rem;
+	}
+
+  @media(max-width: 768px) {
+		/* display: none; */
+    margin-left: 3.188rem;
+    padding-bottom: 2rem;
+    font-size: 2.063rem;
+    color: var(--color_white);
+    border: none;
+	}
 `
