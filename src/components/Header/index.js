@@ -1,27 +1,20 @@
-import Menu from "./Menu";
-import HeaderText from "./HeaderText";
-import Button from "../Buttons";
 import * as S from './styles';
 
+//Component
+import Menu from './Menu';
+import ContentHeader from './ContentHeader';
+
+//Video
 import Video from '../../assets/video/headerVideo.mp4';
 
-
-function App() {
+function Header() {
   return (
     <S.Container>
       <Menu />
-      <HeaderText />
       <S.Video src={Video} autoPlay controls />
-      <S.ContentButton>
-        <Button hasIcon>
-          Entenda Deep Tech
-        </Button>
-        <Button noColor>
-          Nossos clientes
-        </Button>
-      </S.ContentButton>
+      <ContentHeader />
     </S.Container>
   );
 }
 
-export default App;
+export default Header;
