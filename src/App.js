@@ -1,9 +1,9 @@
-import Menu from "./components/Menu";
+import Home from "./pages/Home";
 
 function App() {
   return (
-    <div>
-      <Menu />
+    <div style={{background: 'black', height: '100vh'}}>
+      <Home />
     </div>
   );
 }

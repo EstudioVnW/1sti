@@ -5,6 +5,31 @@
   outline: none;
 }
 
+@font-face {
+  font-family: 'GoshaSans';
+  src: url(./styles/Fonts/GoshaSans/GoshaSansRegular.otf);
+}
+
+@font-face {
+  font-family: 'GoshaSans-Bold';
+  src: url(./styles/Fonts/GoshaSans/GoshaSansBold.otf);
+}
+
+@font-face {
+  font-family: 'CabinetGrotesk';
+  src: url(./styles/Fonts/CabinetGrotesk/CabinetGrotesk-Regular.otf)
+}
+
+@font-face {
+  font-family: 'CabinetGrotesk-Medium';
+  src: url(./styles/Fonts/CabinetGrotesk/CabinetGrotesk-Medium.otf)
+}
+
+@font-face {
+  font-family: 'CabinetGrotesk-Bold';
+  src: url(./styles/Fonts/CabinetGrotesk/CabinetGrotesk-Bold.otf);
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -21,6 +46,10 @@ code {
 
 html {
   font-size: 16px;
+}
+
+button {
+  outline: none;
 }
 
 :root {
