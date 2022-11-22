@@ -8,7 +8,6 @@ import {
   sulamerica,
   cruzeiroDoSul,
   somosEducacao,
-  logoPactoGlobal,
   hospitalSirioLibanes
 } from '../../../assets';
 
@@ -36,15 +35,16 @@ function ActiveJourneys() {
     </div>
   )
 
-
   return (
     <S.Container>
       <SideBox
+        width='28%'
         title='Jornadas'
         secondTitle='Ativas'
         subTitle='Onde estamos e com quais soluções geramos impactos ampliados.'
         buttonText='Inicie sua jornada'
       />
+      
       <S.ContentLogoOfTheJourneys>
         {renderContentEducation()}
         <S.ContentLogos>

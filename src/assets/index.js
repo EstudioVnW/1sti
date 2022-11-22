@@ -24,3 +24,8 @@ export { default as cruzeiroDoSul } from './logo/cruzeiroDoSul.png';
 export { default as somosEducacao } from './logo/somosEducacao.png';
 export { default as logoPactoGlobal } from './logo/logoPactoGlobal.png';
 export { default as hospitalSirioLibanes } from './logo/hospitalSirioLibanes.png';
+
+//Imagens
+export { default as increasedAgility } from './imagens/increasedAgility.png';
+export { default as conch } from './imagens/conch.png';
+export { default as futureOfEducation } from './imagens/futureOfEducation.svg';

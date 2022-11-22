@@ -4,13 +4,14 @@ import Title from '../Title/TextBreak';
 import * as S from './styles';
 
 function SideBox({
+  width,
   title,
   secondTitle,
   subTitle,
   buttonText
 }) {
   return (
-    <S.Container>
+    <S.Container width={width}>
       <Title 
         title={title}
         secondTitle={secondTitle}
