@@ -6,7 +6,7 @@ export const Button = styled.button`
   height: 3.688rem;
   font-size: 1.063rem;
   font-family: 'CabinetGrotesk-Medium';
-  color: ${props => props.noColor ? `var(--color_white)` : `var(--color_black)`};
+  color: ${props => props.noColor ? `var(--color_white)` : `var(--color_lightBlack)`};
   background: ${props => props.noColor ? 'transparent' : `var(--color_white)`};
   border: 1px solid var(--color_white);
   border-radius: 5px;

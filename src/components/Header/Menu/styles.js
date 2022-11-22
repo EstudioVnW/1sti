@@ -12,6 +12,7 @@ export const Container = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  z-index: 1;
   
   @media(max-width: 768px) {
     position: relative;
@@ -64,7 +65,7 @@ export const ContentMenu = styled.div`
     height: 100%;
     display: ${props => props.isOpenMenu ? 'flex' : 'none'};
     flex-direction: column;
-    background-color: var(--color_black);
+    background-color: var(--color_lightBlack);
     overflow: scroll;
   }
 `
@@ -74,7 +75,7 @@ export const Ul = styled.ul`
   @media(max-width: 768px) {
     padding-top: 6.5rem;
     display: ${props => props.isOpenMenu ? 'flex' : 'none'};
-    background-color: var(--color_black);
+    background-color: var(--color_lightBlack);
 		flex-direction: column;
 	} 
 `
@@ -83,14 +84,14 @@ export const List = styled.li`
   margin-left: 2.313rem;
   font-size: 1.125rem;
   font-family: ${props => props.fontRegular ? 'GoshaSans' : 'GoshaSans-Bold'};
-  color: var(--color_black);
+  color: var(--color_lightBlack);
   list-style: none;
   letter-spacing: 0px;
-  border-bottom: ${props => props.border && `2px solid var(--color_black)`};
+  border-bottom: ${props => props.border && `2px solid var(--color_lightBlack)`};
   cursor: pointer;
   
   :hover {
-    border-bottom: 2px solid var(--color_black);
+    border-bottom: 2px solid var(--color_lightBlack);
   }
 
   @media(max-width: 850px) {

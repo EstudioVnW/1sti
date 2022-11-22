@@ -47,8 +47,6 @@ code {
 html {
   font-size: 16px;
   overflow-y: scroll;
-
-	
 }
 
 button {
@@ -58,7 +56,11 @@ button {
 
 :root {
   --color_white: #FFFFFF;
-  --color_black:  #0B1617;
+  --color_black: #000000;
+  --color_lightBlack: #0B1617;
+  --color_purple: #AF39E6;
+  --color_grey: #7E7E7E;
+  --color_ciano: #38EEFF;
 }
 
 ::-webkit-scrollbar {
