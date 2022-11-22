@@ -61,6 +61,7 @@ button {
   --color_purple: #AF39E6;
   --color_grey: #7E7E7E;
   --color_ciano: #38EEFF;
+  --color_lightBlue: #00C8DB;
 }
 
 ::-webkit-scrollbar {
