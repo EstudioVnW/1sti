@@ -4,6 +4,8 @@ export { default as logo } from './logo.svg';
 //Icons
 export { default as play } from './icons/icon-play.svg';
 export { default as iconMore } from './icons/iconMore.svg';
+export { default as purpleLeftArrow } from './icons/purpleLeftArrow.svg';
+export { default as purpleRightArrow } from './icons/purpleRightArrow.svg';
 
 //Rede Social
 export { default as medium } from './socialNetworks/medium-logo.svg';
@@ -29,3 +31,4 @@ export { default as hospitalSirioLibanes } from './logo/hospitalSirioLibanes.png
 export { default as increasedAgility } from './imagens/increasedAgility.png';
 export { default as conch } from './imagens/conch.png';
 export { default as futureOfEducation } from './imagens/futureOfEducation.svg';
+export { default as bookDeepTech } from './imagens/bookDeepTech.png';
