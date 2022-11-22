@@ -1,19 +1,29 @@
 import * as S from './styles';
 
 import ServiceBox from './ServiceBox';
+import Title from '../../../components/Title';
+import SubTitle from '../../../components/SubTitle';
+import SideBox from '../../../components/SideBox';
 
 function Services() {
 
   return (
     <S.Container>
-      <S.Box>
-        <S.Title> Serviços </S.Title>
-        <S.Text>
+      <SideBox
+        paddingTopShort
+        title='Serviços'
+        subTitle='O que podemos fazer para elevar propostas de valor,
+          escalar soluções com agilidade aumentada e amplificar
+          resultados com tecnologias emergentes e inovação profunda:'
+      />
+      {/* <S.Box>
+        <Title> Serviços </Title>
+        <SubTitle>
           O que podemos fazer para elevar propostas de valor,
           escalar soluções com agilidade aumentada e amplificar
           resultados com tecnologias emergentes e inovação profunda:
-        </S.Text>
-      </S.Box>
+        </SubTitle>
+      </S.Box> */}
       <ServiceBox
         firstTitle='Estratégia'
         secondTitle='Digital'
