@@ -1,3 +1,35 @@
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+@font-face {
+  font-family: 'GoshaSans';
+  src: url(./styles/Fonts/GoshaSans/GoshaSansRegular.otf);
+}
+
+@font-face {
+  font-family: 'GoshaSans-Bold';
+  src: url(./styles/Fonts/GoshaSans/GoshaSansBold.otf);
+}
+
+@font-face {
+  font-family: 'CabinetGrotesk';
+  src: url(./styles/Fonts/CabinetGrotesk/CabinetGrotesk-Regular.otf)
+}
+
+@font-face {
+  font-family: 'CabinetGrotesk-Medium';
+  src: url(./styles/Fonts/CabinetGrotesk/CabinetGrotesk-Medium.otf)
+}
+
+@font-face {
+  font-family: 'CabinetGrotesk-Bold';
+  src: url(./styles/Fonts/CabinetGrotesk/CabinetGrotesk-Bold.otf);
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +42,31 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+html {
+  font-size: 16px;
+  overflow-y: scroll;
+}
+
+button {
+  border: none;
+  outline: none;
+}
+
+:root {
+  --color_white: #FFFFFF;
+  --color_ice: #FAFAFA;
+  --color_black: #000000;
+  --color_lightBlack: #0B1617;
+  --color_purple: #AF39E6;
+  --color_grey: #7E7E7E;
+  --color_lightGrey: #999999;
+  --color_ciano: #38EEFF;
+  --color_lightBlue: #00C8DB;
+  --color_red: #FF0070;
+}
+
+::-webkit-scrollbar {
+  width: 0;
 }
