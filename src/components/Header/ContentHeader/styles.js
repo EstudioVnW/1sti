@@ -18,6 +18,11 @@ export const Title = styled.h1`
   font-weight: 700;
   font-family: 'GoshaSans-Bold';
   color: var(--color_white);
+
+  @media(max-width: 768px) {
+    padding-top: 1rem;
+    padding-bottom: 0;
+  }
 `
 
 export const SubTitle = styled.h2`
@@ -34,20 +39,17 @@ export const Text = styled.h3`
   font-family: 'CabinetGrotesk-Bold';
   color: var(--color_white);
   line-height: 32px;
+
+  @media(max-width: 768px) {
+    padding-top: 1.25rem;
+  }
 `
 export const ContentButton  = styled.div`
   display: flex;
   flex-wrap: wrap;
-  position: absolute;
   z-index: 1;
   
   button {
     margin: 2.438rem 1.875rem 0 0;
-  }
-
-  @media(max-width: 768px) {
-    button {
-      margin-right: .563rem;
-    }
   }
 `;

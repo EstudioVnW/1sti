@@ -6,6 +6,8 @@ export const Container = styled.div`
   height: 28.458rem;
 
   @media(max-width: 768px) {
+    padding-left: 2.063rem;
+    height: 21.375rem;
     width: ${props => props.full && '100vw'};
   }
 `;
