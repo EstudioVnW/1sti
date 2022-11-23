@@ -56,10 +56,12 @@ button {
 
 :root {
   --color_white: #FFFFFF;
+  --color_ice: #FAFAFA;
   --color_black: #000000;
   --color_lightBlack: #0B1617;
   --color_purple: #AF39E6;
   --color_grey: #7E7E7E;
+  --color_lightGrey: #999999;
   --color_ciano: #38EEFF;
   --color_lightBlue: #00C8DB;
 }

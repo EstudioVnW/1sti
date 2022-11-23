@@ -16,14 +16,6 @@ function Services() {
           escalar soluções com agilidade aumentada e amplificar
           resultados com tecnologias emergentes e inovação profunda:'
       />
-      {/* <S.Box>
-        <Title> Serviços </Title>
-        <SubTitle>
-          O que podemos fazer para elevar propostas de valor,
-          escalar soluções com agilidade aumentada e amplificar
-          resultados com tecnologias emergentes e inovação profunda:
-        </SubTitle>
-      </S.Box> */}
       <ServiceBox
         firstTitle='Estratégia'
         secondTitle='Digital'

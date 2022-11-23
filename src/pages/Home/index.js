@@ -1,7 +1,8 @@
 import Header from "../../components/Header";
+import Services from "./Services";
 import ActiveJourneys from "./ActiveJourneys";
 import Insights from "./Insights";
-import Services from "./Services";
+import DeepTech from "./DeepTech";
 
 function Home() {
   return (
@@ -11,6 +12,7 @@ function Home() {
         <Services />
         <ActiveJourneys />
         <Insights />
+        <DeepTech />
       </main>
     </div>
   );
