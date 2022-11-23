@@ -1,8 +1,6 @@
 import * as S from './styles';
 
 import ServiceBox from './ServiceBox';
-import Title from '../../../components/Title';
-import SubTitle from '../../../components/SubTitle';
 import SideBox from '../../../components/SideBox';
 
 function Services() {
@@ -10,6 +8,7 @@ function Services() {
   return (
     <S.Container>
       <SideBox
+        full
         paddingTopShort
         title='Serviços'
         subTitle='O que podemos fazer para elevar propostas de valor,
