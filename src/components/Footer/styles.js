@@ -8,7 +8,6 @@ export const Container = styled.footer`
 
 export const Content = styled.div`
   margin: auto;
-  padding-top: 2.563rem;
   width: 95%;
   display: flex;
   flex-wrap: wrap;
@@ -16,7 +15,12 @@ export const Content = styled.div`
   border-top: 1px solid var(--color_lightBlue);
 `;
 
+export const Box = styled.div`
+  padding-top: 2.563rem;
+`;
+
 export const LogoPactoGlobal = styled.img`
+  padding-top: 2.563rem;
   align-self: self-start;
   object-fit: contain;
 `;
