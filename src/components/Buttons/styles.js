@@ -12,8 +12,9 @@ export const Button = styled.button`
   border-radius: 5px;
   display: flex;
   align-items: center;
-`
+  cursor: pointer;
+`;
 
 export const IconPlay = styled.img`
   padding-right: 0.5rem;
-`
+`;

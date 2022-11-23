@@ -5,5 +5,4 @@ export const Container = styled.section`
   width: 100vw;
   display: flex;
   flex-direction: row;
-  background: var(--color_lightBlack);
 `;

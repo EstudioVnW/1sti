@@ -1,19 +1,25 @@
-import Header from "../../components/Header";
-import Services from "./Services";
-import ActiveJourneys from "./ActiveJourneys";
-import Insights from "./Insights";
-import DeepTech from "./DeepTech";
+import Header from '../../components/Header';
+import Services from './Services';
+import ActiveJourneys from './ActiveJourneys';
+import Insights from './Insights';
+import DeepTech from './DeepTech';
+import StayPerInside from './StayPerInside';
+import Footer from '../../components/Footer';
+
+import * as S from './styles';
 
 function Home() {
   return (
     <div>
       <Header />
-      <main>
+      <S.Main>
         <Services />
         <ActiveJourneys />
         <Insights />
         <DeepTech />
-      </main>
+        <StayPerInside />
+      </S.Main>
+      <Footer />
     </div>
   );
 }
