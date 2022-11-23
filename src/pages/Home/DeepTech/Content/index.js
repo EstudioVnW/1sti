@@ -69,5 +69,3 @@ function ImageContent() {
 }
 
 export default ImageContent;
-
-

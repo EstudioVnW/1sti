@@ -6,7 +6,6 @@ export const Container = styled.section`
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  background: var(--color_lightBlack);
 `
 
 export const ContentLogoOfTheJourneys = styled.div`
