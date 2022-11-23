@@ -1,9 +1,10 @@
-import Header from "../../components/Header";
-import Services from "./Services";
-import ActiveJourneys from "./ActiveJourneys";
-import Insights from "./Insights";
-import DeepTech from "./DeepTech";
+import Header from '../../components/Header';
+import Services from './Services';
+import ActiveJourneys from './ActiveJourneys';
+import Insights from './Insights';
+import DeepTech from './DeepTech';
 import StayPerInside from './StayPerInside';
+import Footer from '../../components/Footer';
 
 import * as S from './styles';
 
@@ -18,6 +19,7 @@ function Home() {
         <DeepTech />
         <StayPerInside />
       </S.Main>
+      <Footer />
     </div>
   );
 }
