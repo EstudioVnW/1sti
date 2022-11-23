@@ -9,7 +9,7 @@ import {
 } from '../../../../assets';
 
 function ImageContent() {
-  const [currentContent, setCurrentContent] = useState(0);
+  const [currentSlider, setCurrentSlider] = useState(0);
 
   const sliderText = [
     {
@@ -31,11 +31,19 @@ function ImageContent() {
     },
   ];
 
+  const handleGoBackSlider = () => {
+    setCurrentSlider(0);
+  }
+
+  const handleNextSlider = () => {
+    setCurrentSlider(1);
+  }
+
   const renderSlider = () => (
     <S.ContentSlider>
       <S.ContentText>
         {sliderText.map(i => (
-          <S.SliderTextContent>
+          <S.SliderTextContent currentSlider={currentSlider === i.idx}>
             <S.Text>
               {i.text}
             </S.Text>
@@ -46,8 +54,8 @@ function ImageContent() {
         ))}
       </S.ContentText>
       <>
-        <S.IconArrow src={purpleLeftArrow} alt='Voltar' />
-        <S.IconArrow src={purpleRightArrow} alt='Próximo' />
+        <S.IconArrow src={purpleLeftArrow} alt='Voltar' onClick={handleGoBackSlider} currentSlider={currentSlider}/>
+        <S.IconArrow src={purpleRightArrow} alt='Próximo' onClick={handleNextSlider} next currentSlider={currentSlider}/>
       </>
     </S.ContentSlider>
   )
