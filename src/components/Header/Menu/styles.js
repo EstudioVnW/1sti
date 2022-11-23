@@ -7,18 +7,19 @@ export const Container = styled.div`
   right: 0;
   padding: 0 4.625rem 0 5.625rem;
   width: 100vw;
-  height: 4.625rem;
-  background-color: var(--color_white);
+  height: 4.594rem;
+  background-color: var(--color_grey01);
   display: flex;
   justify-content: space-between;
   align-items: center;
+  opacity: 90%;
   z-index: 1;
   
   @media(max-width: 768px) {
     position: relative;
     top: 0;
     padding: 0;
-    height: 100vh;
+    height: ${props => props.isOpenMenu && '100vh'};
     justify-content: initial;
     align-items: initial;
 		flex-direction: column;

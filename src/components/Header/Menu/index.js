@@ -26,7 +26,7 @@ function Menu() {
   )
 
   return (
-    <S.Container>
+    <S.Container isOpenMenu={isOpenMenu}>
       <S.ContainerLogo>
         <S.Logo src={logo} alt="Logo 1sti" />
         {renderIconMenu()}
