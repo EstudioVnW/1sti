@@ -42,7 +42,6 @@ export const SubText = styled(Text)`
 
 export const IconArrow = styled.img`
   margin-right: 1rem;
-  cursor: pointer;
   position: relative;
   bottom: 0;
   opacity: ${props => 
@@ -50,5 +49,11 @@ export const IconArrow = styled.img`
     || (props.currentSlider === 1 && props.next) 
     ? '.5' 
     : '1'
+  };
+  cursor: ${props => 
+    (props.currentSlider === 0 && !props.next) 
+    || (props.currentSlider === 1 && props.next) 
+    ? 'initial' 
+    : 'pointer'
   };
 `;
