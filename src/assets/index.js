@@ -32,3 +32,5 @@ export { default as increasedAgility } from './imagens/increasedAgility.png';
 export { default as conch } from './imagens/conch.png';
 export { default as futureOfEducation } from './imagens/futureOfEducation.svg';
 export { default as bookDeepTech } from './imagens/bookDeepTech.png';
+
+// bookDeepTech
