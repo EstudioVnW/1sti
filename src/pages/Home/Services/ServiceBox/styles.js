@@ -5,8 +5,8 @@ export const Container = styled.div`
   padding: 3.75rem 3rem 3.708rem 4.563rem;
   background: var(--color_black);
   width: 33.33%;
-  /* min-width: 28.458rem; */
   height: 28.458rem;
+  border: 1px solid #0B1617;
   cursor: pointer;
 
   :hover {
@@ -16,6 +16,16 @@ export const Container = styled.div`
       color: var(--color_ciano);
     }
   }
+
+  @media(max-width: 768px) {
+    padding-left: 2.125rem;
+    width: 50%;
+  }
+
+  @media(max-width: 390px) {
+    flex-direction: column;
+    width: 100vw;
+  }
 `
 
 export const Title = styled.h3`
@@ -23,6 +33,10 @@ export const Title = styled.h3`
   font-weight: 500;
   font-family: 'GoshaSans';
   color: var(--color_white);
+
+  @media(max-width: 768px) {
+    font-size: 1.5rem;
+  }
 `;
 
 export const Text = styled.h4`
@@ -33,6 +47,10 @@ export const Text = styled.h4`
   font-family: 'CabinetGrotesk-Medium';
   line-height: 2.1rem;
   color: var(--color_grey);
+
+  @media(max-width: 768px) {
+    font-size: 1.125rem;
+  }
 `;
 
 export const Button = styled.button`

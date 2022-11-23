@@ -5,13 +5,14 @@ import * as S from './styles';
 
 function SideBox({
   width,
+  full,
   title,
   secondTitle,
   subTitle,
   buttonText
 }) {
   return (
-    <S.Container width={width}>
+    <S.Container width={width} full={full}>
       <Title 
         title={title}
         secondTitle={secondTitle}

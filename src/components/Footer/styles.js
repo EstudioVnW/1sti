@@ -26,7 +26,7 @@ export const LogoPactoGlobal = styled.img`
 `;
 
 export const LogoIcon = styled.img`
-  padding-left: 1.643rem;
+  padding-right: 1.643rem;
   width: 3.938rem;
 `;
 

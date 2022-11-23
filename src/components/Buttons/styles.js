@@ -13,6 +13,11 @@ export const Button = styled.button`
   display: flex;
   align-items: center;
   cursor: pointer;
+
+  @media(max-width: 768px) {
+    padding-top: 1.563;
+    margin-right: .563rem;
+  }
 `;
 
 export const IconPlay = styled.img`

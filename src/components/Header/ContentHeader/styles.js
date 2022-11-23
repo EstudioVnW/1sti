@@ -4,6 +4,12 @@ export const Container = styled.div`
   padding: 0 0 0 5.625rem;
   position: absolute;
   top: 7.375rem;
+
+  @media(max-width: 768px) {
+    position: initial;
+    top: 0;
+    padding-left: 2.063rem;
+  }
 `
 export const Title = styled.h1`
   padding-top: 3.438rem;
@@ -12,6 +18,11 @@ export const Title = styled.h1`
   font-weight: 700;
   font-family: 'GoshaSans-Bold';
   color: var(--color_white);
+
+  @media(max-width: 768px) {
+    padding-top: 1rem;
+    padding-bottom: 0;
+  }
 `
 
 export const SubTitle = styled.h2`
@@ -23,15 +34,22 @@ export const SubTitle = styled.h2`
 
 export const Text = styled.h3`
   padding-top: 2rem;
-  width: 25rem;
+  max-width: 25rem;
   font-size: 1.25rem;
   font-family: 'CabinetGrotesk-Bold';
   color: var(--color_white);
   line-height: 32px;
+
+  @media(max-width: 768px) {
+    padding-top: 1.25rem;
+  }
 `
 export const ContentButton  = styled.div`
-  padding: 2.438rem 0 0 0;
   display: flex;
-  position: absolute;
+  flex-wrap: wrap;
   z-index: 1;
+  
+  button {
+    margin: 2.438rem 1.875rem 0 0;
+  }
 `;
