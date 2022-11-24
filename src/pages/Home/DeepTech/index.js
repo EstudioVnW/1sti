@@ -1,6 +1,6 @@
 import * as S from './styles';
 
-import SideBox from '../../../components/SideBox';
+import SideBox from '../../../components/Card/ServiceBox';
 import Content from './Content';
 
 function Insights() {

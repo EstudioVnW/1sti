@@ -1,6 +1,6 @@
-import Button from '../Buttons';
-import SubTitle from '../SubTitle';
-import Title from '../Title/TextBreak';
+import Button from '../../Buttons';
+import SubTitle from '../../SubTitle';
+import Title from '../../Title/TextBreak';
 import * as S from './styles';
 
 function SideBox({

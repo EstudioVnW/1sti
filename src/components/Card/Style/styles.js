@@ -57,7 +57,6 @@ export const Button = styled.button`
   display: flex;
   position: absolute;
   bottom: 3.708rem;
-  line-height: 0;
   background: transparent;
 `;
 
@@ -67,9 +66,4 @@ export const ButtonText = styled.p`
   font-weight: 500;
   font-family: 'CabinetGrotesk-Medium';
   color: var(--color_purple);
-`;
-
-export const TagMore = styled(ButtonText)`
-  font-size: 2.5rem;
-  font-family: initial;
 `;
