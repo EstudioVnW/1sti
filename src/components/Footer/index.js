@@ -13,7 +13,8 @@ function Footer() {
   const renderSocialNetworks = (
     link,
     icon,
-    logoName
+    logoName,
+    lastItem
   ) => (
     <a
       href={link}
@@ -23,6 +24,7 @@ function Footer() {
       <S.LogoIcon
         src={icon}
         alt={logoName}
+        lastItem={lastItem}
       />
     </a>
   )
@@ -31,19 +33,23 @@ function Footer() {
     <S.Container>
       <S.Content>
         <S.LogoPactoGlobal src={logoPactoGlobal} alt='Logo WE SUPPORT' />
-        <S.Box>
+        <S.Box order='2'>
           <S.Title>ECOSSISTEMA DEEP TECH</S.Title>
           <S.Text>Sofya</S.Text>
           <S.Text>Vai na Web</S.Text>
           <S.Text>Instituto Precisa Ser</S.Text>
         </S.Box>
-        <S.Box>
-          {renderSocialNetworks("https://br.linkedin.com/company/1sti", linkedIn, 'Logo LinkedIn')}
-          {renderSocialNetworks("https://www.instagram.com/ola_1sti/", instagran, 'Logo Instagran')}
-          {renderSocialNetworks("https://medium.com/@1STi", medium, 'Logo Medium')}
-          {renderSocialNetworks("https://pt-br.facebook.com/ola1STi/", facebook, 'Logo Facebook')}
+        <S.Box order='1' logo>
+          <div>
+            {renderSocialNetworks("https://br.linkedin.com/company/1sti", linkedIn, 'Logo LinkedIn')}
+            {renderSocialNetworks("https://www.instagram.com/ola_1sti/", instagran, 'Logo Instagran')}
+          </div>
+          <div>
+            {renderSocialNetworks("https://medium.com/@1STi", medium, 'Logo Medium')}
+            {renderSocialNetworks("https://pt-br.facebook.com/ola1STi/", facebook, 'Logo Facebook', 'lastItem')}
+          </div>
         </S.Box>
-        <S.Box>
+        <S.Box order='3'>
           <S.Text fontSize='1.625rem' paddingBottom='1rem'>Come work with us!</S.Text>
           <S.Text fontSize='1.125rem' paddingBottom='1.5rem'>We are always looking for talent to empower deep tech transformations.</S.Text>
           <Button>See openings</Button>

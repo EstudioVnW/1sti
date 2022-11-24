@@ -19,7 +19,7 @@ function Home() {
         <DeepTech />
         <StayPerInside /> */}
       </S.Main>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
