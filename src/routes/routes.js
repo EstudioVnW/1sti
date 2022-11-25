@@ -19,6 +19,10 @@ const NavigateRoutes = () => {
           path='/servico'
           element={<Services />}
         />
+          <Route
+          path='/*'
+          element={<Home />}
+        />
       </Routes>
     </Router>
   )
