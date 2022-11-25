@@ -110,5 +110,9 @@ export const List = styled.li`
     font-size: 2.063rem;
     color: var(--color_white);
     border: none;
+
+    a {
+     color: var(--color_white);
+    }
 	}
 `
