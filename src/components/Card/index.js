@@ -3,18 +3,17 @@ import * as S from './styles';
 import Card from './Style';
 import ServiceBox from './ServiceBox';
 
-function Services({ service }) {
-
+function Services({ service, title, children }) {
   return (
     <S.Container>
-     {service && <ServiceBox
+     {service
+       && <ServiceBox
         full
         paddingTopShort
-        title='Serviços'
-        subTitle='O que podemos fazer para elevar propostas de valor,
-          escalar soluções com agilidade aumentada e amplificar
-          resultados com tecnologias emergentes e inovação profunda:'
-      />}
+        title={title}
+      >
+        { children }
+      </ServiceBox>}
       <Card
         firstTitle='Estratégia'
         secondTitle='Digital'

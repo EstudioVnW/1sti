@@ -9,6 +9,7 @@ function SideBox({
   title,
   secondTitle,
   subTitle,
+  children,
   buttonText
 }) {
   return (
@@ -20,6 +21,7 @@ function SideBox({
       <SubTitle>
         {subTitle}
       </SubTitle>
+      { children }
       {buttonText && (
         <Button>
           {buttonText}
