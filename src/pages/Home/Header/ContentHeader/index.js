@@ -1,5 +1,5 @@
 import * as S from './styles';
-import Button from "../../Buttons";
+import Button from '../../../../components/Buttons';
 
 function ContentHeader() {
   const renderContentText = () => (

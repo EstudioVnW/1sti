@@ -11,14 +11,14 @@ const NavigateRoutes = () => {
     <Router>
       <Routes>
         <Route
-          path='/home'
+          exact
+          path='/'
           element={<Home />}
         />
         <Route
           path='/servico'
           element={<Services />}
         />
-           
       </Routes>
     </Router>
   )

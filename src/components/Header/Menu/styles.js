@@ -90,6 +90,11 @@ export const List = styled.li`
   letter-spacing: 0px;
   border-bottom: ${props => props.border && `2px solid var(--color_lightBlack)`};
   cursor: pointer;
+
+  a {
+    color: var(--color_lightBlack);
+    text-decoration: none;
+  }
   
   :hover {
     border-bottom: 2px solid var(--color_lightBlack);
@@ -100,7 +105,6 @@ export const List = styled.li`
 	}
 
   @media(max-width: 768px) {
-		/* display: none; */
     margin-left: 3.188rem;
     padding-bottom: 2rem;
     font-size: 2.063rem;
