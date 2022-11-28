@@ -19,6 +19,7 @@ export { default as open } from './menu/open.svg';
 export { default as close } from './menu/close.svg';
 
 //Logo
+export { default as logo1sti } from './logo/1sti.svg';
 export { default as cogna } from './logo/cogna.svg';
 export { default as marisa } from './logo/marisa.svg';
 export { default as laureate } from './logo/laureate.png';

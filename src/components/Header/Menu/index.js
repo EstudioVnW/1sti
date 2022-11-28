@@ -4,7 +4,8 @@ import SocialNetworks from './SocialNetworks';
 import {
   logo,
   open,
-  close
+  close,
+  logo1sti
 } from '../../../assets';
 
 import * as S from './styles';
@@ -71,6 +72,9 @@ function Menu() {
     <S.Container isOpenMenu={isOpenMenu}>
       <S.ContainerLogo>
         <S.Logo src={logo} alt='Logo 1sti' />
+        <S.Figure>
+          <img full src={logo1sti} alt='Logo 1sti' />
+        </S.Figure>
         {renderIconMenu()}
       </S.ContainerLogo>
       <S.ContentMenu isOpenMenu={isOpenMenu}>
