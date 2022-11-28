@@ -15,8 +15,8 @@ function Home() {
       <S.Main>
         <Services />
         <ActiveJourneys />
-        {/* <Insights />
-        <DeepTech />
+        <Insights />
+        {/* <DeepTech />
         <StayPerInside /> */}
       </S.Main>
       {/* <Footer /> */}

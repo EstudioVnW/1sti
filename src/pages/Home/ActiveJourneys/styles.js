@@ -21,8 +21,8 @@ export const Container = styled.section`
   }
 
   @media(max-width: 845px) {
-    padding-bottom: 12.625rem;
-    flex-direction: column;   
+    padding-bottom: 10.625rem;
+    flex-direction: column;
   }
 `
 
