@@ -1,16 +1,17 @@
 import * as S from './styles';
 
 //Component
-import Menu from '../../../components/Header/Menu';
+import Header from '../../../components/Header';
 import ContentHeader from './ContentHeader';
 
-function Header() {
+function HeaderScreen() {
   return (
     <S.Container>
-      <Menu />
-      <ContentHeader />
+      <Header>
+        <ContentHeader />
+      </Header>
     </S.Container>
   );
 }
 
-export default Header;
+export default HeaderScreen;
