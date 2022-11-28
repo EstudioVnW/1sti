@@ -19,6 +19,7 @@ export { default as open } from './menu/open.svg';
 export { default as close } from './menu/close.svg';
 
 //Logo
+export { default as logo1sti } from './logo/1sti.svg';
 export { default as cogna } from './logo/cogna.svg';
 export { default as marisa } from './logo/marisa.svg';
 export { default as laureate } from './logo/laureate.png';
@@ -33,3 +34,4 @@ export { default as increasedAgility } from './imagens/increasedAgility.png';
 export { default as conch } from './imagens/conch.png';
 export { default as futureOfEducation } from './imagens/futureOfEducation.svg';
 export { default as bookDeepTech } from './imagens/bookDeepTech.png';
+export { default as photoServices } from './imagens/services.png';

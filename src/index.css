@@ -30,6 +30,11 @@
   src: url(./styles/Fonts/CabinetGrotesk/CabinetGrotesk-Bold.otf);
 }
 
+@font-face {
+  font-family: 'CabinetGrotesk-Extrabold';
+  src: url(./styles/Fonts/CabinetGrotesk/CabinetGrotesk-Extrabold.otf);
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

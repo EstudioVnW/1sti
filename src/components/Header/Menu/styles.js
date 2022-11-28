@@ -27,7 +27,19 @@ export const Container = styled.div`
 	}
 `
 
-export const ContainerLogo  = styled.div`
+export const ContainerLogo = styled.div`
+  :hover {
+    img {
+      display: none;
+    }
+    figure {
+      display: flex;
+      img {
+        display: flex;
+      }
+    }
+  }
+
   @media(max-width: 768px) {
     margin-top: 0.625rem;
     padding: .563rem 0;
@@ -42,10 +54,19 @@ export const ContainerLogo  = styled.div`
 export const Logo = styled.img`
   width: 2.813rem;
 
+  :hover {
+    display: none;
+  } 
+
   @media(max-width: 768px) {
     background-color: var(--color_white);
 	}
 `
+
+export const Figure = styled.figure`
+  display: none;
+`
+
 export const ButtonMenu = styled.button`
   display: none;
 
@@ -57,7 +78,7 @@ export const ButtonMenu = styled.button`
     cursor: pointer;
 	}
 `
-export const IconClose  = styled.img`
+export const IconClose = styled.img`
   width: 1.635rem;
 `
 export const ContentMenu = styled.div`
@@ -90,6 +111,11 @@ export const List = styled.li`
   letter-spacing: 0px;
   border-bottom: ${props => props.border && `2px solid var(--color_lightBlack)`};
   cursor: pointer;
+
+  a {
+    color: var(--color_lightBlack);
+    text-decoration: none;
+  }
   
   :hover {
     border-bottom: 2px solid var(--color_lightBlack);
@@ -100,11 +126,14 @@ export const List = styled.li`
 	}
 
   @media(max-width: 768px) {
-		/* display: none; */
     margin-left: 3.188rem;
     padding-bottom: 2rem;
     font-size: 2.063rem;
     color: var(--color_white);
     border: none;
+
+    a {
+     color: var(--color_white);
+    }
 	}
 `

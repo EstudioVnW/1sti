@@ -1,8 +1,8 @@
 import * as S from './styles';
 
-function SubTitle({ children }) {
+function SubTitle({ maxWidth, children }) {
   return (
-    <S.Text> {children} </S.Text>
+    <S.Text maxWidth={maxWidth}> {children} </S.Text>
   );
 }
 

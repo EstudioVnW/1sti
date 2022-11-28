@@ -9,6 +9,7 @@ export const Container = styled.div`
     position: initial;
     top: 0;
     padding-left: 2.063rem;
+    padding-right: 1rem;
   }
 `
 export const Title = styled.h1`
@@ -49,7 +50,11 @@ export const ContentButton  = styled.div`
   flex-wrap: wrap;
   z-index: 1;
   
-  button {
+  /* button {
     margin: 2.438rem 1.875rem 0 0;
-  }
+
+    @media(max-width: 768px) {
+      margin-right: 1.563rem 0 .5rem 0;
+    }
+  } */
 `;

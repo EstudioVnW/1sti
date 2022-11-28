@@ -17,7 +17,7 @@ function ImageContent() {
     text
   ) => (
     <S.Content>
-      <img src={img} alt={altName} />
+      <S.Img src={img} alt={altName} />
       <S.Figcaption> {figcaption} </S.Figcaption>
       <Title>
         {text}

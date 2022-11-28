@@ -1,4 +1,4 @@
-import Header from '../../components/Header';
+import Header from './Header';
 import Services from './Services';
 import ActiveJourneys from './ActiveJourneys';
 import Insights from './Insights';
@@ -14,9 +14,9 @@ function Home() {
       <Header />
       <S.Main>
         <Services />
-        {/* <ActiveJourneys />
+        <ActiveJourneys />
         <Insights />
-        <DeepTech />
+        {/* <DeepTech />
         <StayPerInside /> */}
       </S.Main>
       {/* <Footer /> */}

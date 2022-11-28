@@ -6,7 +6,7 @@ export const Container = styled.div`
   background: var(--color_black);
   width: 33.33%;
   height: 28.458rem;
-  border: 1px solid #0B1617;
+  border: 1px solid var(--color_lightBlack);
   cursor: pointer;
 
   :hover {
@@ -57,7 +57,6 @@ export const Button = styled.button`
   display: flex;
   position: absolute;
   bottom: 3.708rem;
-  line-height: 0;
   background: transparent;
 `;
 
@@ -67,9 +66,4 @@ export const ButtonText = styled.p`
   font-weight: 500;
   font-family: 'CabinetGrotesk-Medium';
   color: var(--color_purple);
-`;
-
-export const TagMore = styled(ButtonText)`
-  font-size: 2.5rem;
-  font-family: initial;
 `;
