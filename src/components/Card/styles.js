@@ -5,7 +5,7 @@ export const Container = styled.section`
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  background: var(--color_lightBlack);
+  background: var(--color_black);
 `
 
 export const Box = styled.div`

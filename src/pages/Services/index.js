@@ -4,7 +4,7 @@ import Footer from '../../components/Footer';
 
 function ServicesScreen() {
   return (
-    <div>
+    <>
       <Header />
       <main>
         <Services service>
@@ -16,7 +16,7 @@ function ServicesScreen() {
         </Services>
       </main>
       <Footer />
-    </div>
+    </>
   );
 }
 

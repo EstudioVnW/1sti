@@ -6,7 +6,7 @@ export const Container = styled.div`
   background: var(--color_black);
   width: 33.33%;
   height: 28.458rem;
-  border: 1px solid #0B1617;
+  border: 1px solid var(--color_lightBlack);
   cursor: pointer;
 
   :hover {

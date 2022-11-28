@@ -14,10 +14,10 @@ function Home() {
       <Header />
       <S.Main>
         <Services />
-        <ActiveJourneys />
-        <Insights />
+        {/* <ActiveJourneys /> */}
+        {/* <Insights />
         <DeepTech />
-        <StayPerInside />
+        <StayPerInside /> */}
       </S.Main>
       <Footer />
     </div>

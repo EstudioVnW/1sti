@@ -17,6 +17,7 @@ export const Video = styled.video`
   height: 100vh;
 
   @media(max-width: 768px) {
+    position: initial;
     height: initial;
   }
 `;
