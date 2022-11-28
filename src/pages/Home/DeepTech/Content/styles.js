@@ -2,19 +2,36 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
   display: flex;
+  flex-wrap: wrap;
 `;
 
 export const BookImage = styled.img`
-  margin-top: -5rem;
+  max-width: 541px;
+
+  @media(max-width: 768px) {
+    margin-left: -2rem;
+    width: 100%;
+  }
 `;
 
 export const ContentSlider = styled.div`
+  padding-left: 4.563rem;
   align-self: center;
   position: relative;
+
+  @media(max-width: 768px) {
+    padding-left: 2rem;
+    align-self: flex-start;
+  }
 `;
 
 export const ContentText = styled.div`
+  padding-bottom: 4.5rem;
   display: flex;
+
+  @media(max-width: 768px) {
+    padding-bottom: .813rem;
+  }
 `;
 
 export const SliderTextContent = styled.div`
@@ -24,6 +41,11 @@ export const SliderTextContent = styled.div`
   display: ${props => props.currentSlider ? 'flex' : 'none'};
   justify-content: center;
   flex-direction: column;
+  
+  @media(max-width: 768px) {
+    justify-content: flex-start;
+    min-height: 300px;
+  }
 `;
 
 export const Text = styled.p`
@@ -35,7 +57,6 @@ export const Text = styled.p`
 
 export const SubText = styled(Text)`
   padding-top: 1rem;
-  padding-bottom: 4.5rem;
   font-weight: 500;
   color: var(--color_grey);
 `;
@@ -44,16 +65,16 @@ export const IconArrow = styled.img`
   margin-right: 1rem;
   position: relative;
   bottom: 0;
-  opacity: ${props => 
-    (props.currentSlider === 0 && !props.next) 
-    || (props.currentSlider === 1 && props.next) 
-    ? '.5' 
-    : '1'
+  opacity: ${props =>
+    (props.currentSlider === 0 && !props.next)
+      || (props.currentSlider === 1 && props.next)
+      ? '.5'
+      : '1'
   };
-  cursor: ${props => 
-    (props.currentSlider === 0 && !props.next) 
-    || (props.currentSlider === 1 && props.next) 
-    ? 'initial' 
-    : 'pointer'
+  cursor: ${props =>
+    (props.currentSlider === 0 && !props.next)
+      || (props.currentSlider === 1 && props.next)
+      ? 'initial'
+      : 'pointer'
   };
 `;

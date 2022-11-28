@@ -8,8 +8,10 @@ export const Container = styled.section`
 `;
 
 export const Box = styled.div`
+  padding: 0 1.688rem;
   margin: auto;
-  width: 40.813rem;
+  width: 90vw;
+  max-width: 40.813rem;
   height: 424px;
   display: flex;
   justify-content: center;
@@ -44,6 +46,10 @@ export const ContentRegister = styled.div`
   justify-content: space-between;
   border-bottom: 1px solid var(--color_red);
   cursor: pointer;
+
+  @media(max-width: 600px) {
+    width: 100%;
+  }
 `;
 
 export const TextRegister = styled.p`

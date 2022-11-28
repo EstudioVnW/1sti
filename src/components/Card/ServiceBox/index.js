@@ -4,6 +4,7 @@ import * as S from './styles';
 
 function SideBox({
   width,
+  height,
   full,
   title,
   secondTitle,
@@ -11,7 +12,11 @@ function SideBox({
   buttonText
 }) {
   return (
-    <S.Container width={width} full={full}>
+    <S.Container
+     width={width}
+     height={height}
+     full={full}
+    >
       <Title 
         title={title}
         secondTitle={secondTitle}

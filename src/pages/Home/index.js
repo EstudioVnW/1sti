@@ -16,10 +16,10 @@ function Home() {
         <Services />
         <ActiveJourneys />
         <Insights />
-        {/* <DeepTech />
-        <StayPerInside /> */}
+        <DeepTech />
+        <StayPerInside />
       </S.Main>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
