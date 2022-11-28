@@ -3,8 +3,7 @@ import * as S from './styles';
 import ServiceBox from '../../../components/Card';
 import SubTitle from '../../../components/SubTitle';
 
-function Services({ children }) {
-
+function Services() {
   return (
     <S.Container>
       <ServiceBox

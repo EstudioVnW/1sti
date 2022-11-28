@@ -14,12 +14,12 @@ function Home() {
       <Header />
       <S.Main>
         <Services />
-        {/* <ActiveJourneys /> */}
+        <ActiveJourneys />
         {/* <Insights />
         <DeepTech />
         <StayPerInside /> */}
       </S.Main>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

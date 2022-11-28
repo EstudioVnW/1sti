@@ -10,18 +10,28 @@ import {
   somosEducacao,
   hospitalSirioLibanes
 } from '../../../assets';
+import SubTitle from '../../../components/SubTitle';
+import Button from '../../../components/Buttons';
 
 function ActiveJourneys() {
   const renderContentEducation = () => (
-    <div>
+    <>
       <S.Title>educação</S.Title>
-      <S.ContentLogos paddingBottom>
-        <S.Logo src={cogna} alt='Logo Cogna' />
-        <S.Logo src={somosEducacao} alt='Logo Somos' />
-        <S.Logo src={cruzeiroDoSul} alt='Logo Cruzeiro Do Sul' />
-        <S.Logo src={laureate} alt='Logo Laureate' />
+      <S.ContentLogos education>
+        <S.Figure>
+          <S.Logo src={cogna} alt='Logo Cogna' />
+        </S.Figure>
+        <S.Figure>
+          <S.Logo src={somosEducacao} alt='Logo Somos' />
+        </S.Figure>
+        <S.Figure>
+          <S.Logo src={cruzeiroDoSul} alt='Logo Cruzeiro Do Sul' />
+        </S.Figure>
+        <S.Figure>
+          <S.Logo src={laureate} alt='Logo Laureate' />
+        </S.Figure>
       </S.ContentLogos>
-    </div>
+    </>
   )
 
   const renderContentBusiness = (
@@ -29,22 +39,33 @@ function ActiveJourneys() {
     image,
     altName
   ) => (
-    <div>
+    <S.ContentBusiness>
       <S.Title> {title} </S.Title>
       <S.Logo src={image} alt={altName} />
-    </div>
+    </S.ContentBusiness>
+  )
+
+  const renderButton = (descktop) => (
+    <S.ContentButton descktop={descktop}>
+      <Button>
+        Inicie sua jornada
+      </Button>
+    </S.ContentButton>
   )
 
   return (
     <S.Container>
       <SideBox
-        width='28%'
+        width='21rem'
+        full
         title='Jornadas'
         secondTitle='Ativas'
-        subTitle='Onde estamos e com quais soluções geramos impactos ampliados.'
-        buttonText='Inicie sua jornada'
-      />
-      
+      >
+        <SubTitle maxWidth='13rem'>
+          Onde estamos e com quais soluções geramos impactos ampliados.
+        </SubTitle>
+        {renderButton('descktop')}
+      </SideBox>
       <S.ContentLogoOfTheJourneys>
         {renderContentEducation()}
         <S.ContentLogos>
@@ -52,8 +73,8 @@ function ActiveJourneys() {
           {renderContentBusiness('seguros', sulamerica, 'Shopping Sulamerica')}
           {renderContentBusiness('varejo', marisa, 'Loja Marisa')}
         </S.ContentLogos>
+        {renderButton()}
       </S.ContentLogoOfTheJourneys>
-
     </S.Container>
   );
 }
