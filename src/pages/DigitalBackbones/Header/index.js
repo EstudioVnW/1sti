@@ -18,22 +18,22 @@ function HeaderScreen() {
             <Title>Digitais</Title>
           </>
           <SubTitle>
-            A tecnologia como meio para transformações profundas
+           Acelerando inovações com agilidade aumentada
           </SubTitle>
           <S.Image src={digitalStrategy} alt='Foto de uma abelha em cima de uma flor' mobile />
         </div>
         <div>
           <S.Text>
-            Amplifique a estratégia de negócios com a dimensão digital pensando tecnologia
-            como parte integrante do todo, alavancando otimizações e inovações de alto impacto.
-            Conte com um trabalho de inteligência e aconselhamento para analisar e qualificar demandas
-            e capacidades de sua organização, fundamentando a definição de focos de atuação e visão de futuro,
-            com clareza dos passos a serem adotados e dos investimentos a serem realizados para a execução.
+            Agilize a inserção e garanta a continuidade de sua empresa na economia digital,
+            com uma fundação tecnológica escalável e flexível que viabiliza inovações e criação
+            de novas capacidades na velocidade necessária para adaptação a mudanças e aproveitamento
+            de oportunidades de mercado.
           </S.Text>
           <S.Text subText>
-            A prática de Estratégia Digital da 1STi conta com especialistas em tecnologia, arquitetura
-            organizacional e análise de missão crítica, permitindo a construção de modelos operacionais
-            digitais consistentes e conectados aos objetivos de sua área ou negócio.
+            Os Backbones Digitais construídos pela 1STi implementam uma
+            espinha dorsal de tecnologia de missão crítica com interoperabilidade, escalabilidade e
+            integridade costuradas em seu DNA, abrindo caminho para que sua equipe desenvolva plataformas
+            digitais que geram inovações profundas.
           </S.Text>
         </div>
       </S.ContentText>

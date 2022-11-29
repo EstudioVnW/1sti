@@ -17,22 +17,23 @@ function HeaderScreen() {
             <Title>Analytics</Title>
           </>
           <SubTitle>
-            A tecnologia como meio para transformações profundas
+            Amplificando análise de dados para multiplicar oportunidades
           </SubTitle>
           <S.Image src={digitalStrategy} alt='Foto de uma abelha em cima de uma flor' mobile />
         </div>
         <div>
           <S.Text>
-            Amplifique a estratégia de negócios com a dimensão digital pensando tecnologia
-            como parte integrante do todo, alavancando otimizações e inovações de alto impacto.
-            Conte com um trabalho de inteligência e aconselhamento para analisar e qualificar demandas
-            e capacidades de sua organização, fundamentando a definição de focos de atuação e visão de futuro,
-            com clareza dos passos a serem adotados e dos investimentos a serem realizados para a execução.
+            Aumente o poder dos dados criando um núcleo de inteligência
+            capaz de aprofundar as análises usando hiper relacionamento
+            e processamento de nova geração. O Deep Analytics é capaz de
+            extrair informação a partir da fala, imagens e vídeos, documentos digitalizados,
+            robôs digitais de extração e bancos de dados em qualquer fonte, públicos e privados.
           </S.Text>
           <S.Text subText>
-            A prática de Estratégia Digital da 1STi conta com especialistas em tecnologia, arquitetura
-            organizacional e análise de missão crítica, permitindo a construção de modelos operacionais
-            digitais consistentes e conectados aos objetivos de sua área ou negócio.
+            Conecte os seus processos a esse centro de inteligência e habilite a inteligência artificial
+            para criar experiências personalizadas, otimizar a alocação e distribuição de recursos,
+            construir plataformas de dados com visão 360 graus e descobrir continuamente oportunidades
+            de eficiência operacional e financeira.
           </S.Text>
         </div>
       </S.ContentText>

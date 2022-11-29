@@ -18,22 +18,20 @@ function HeaderScreen() {
             <Title>Deep Tech </Title>
           </>
           <SubTitle>
-            A tecnologia como meio para transformações profundas
+            Tecnologias visionárias para inovação de alto impacto
           </SubTitle>
           <S.Image src={digitalStrategy} alt='Foto de uma abelha em cima de uma flor' mobile />
         </div>
         <div>
           <S.Text>
-            Amplifique a estratégia de negócios com a dimensão digital pensando tecnologia
-            como parte integrante do todo, alavancando otimizações e inovações de alto impacto.
-            Conte com um trabalho de inteligência e aconselhamento para analisar e qualificar demandas
-            e capacidades de sua organização, fundamentando a definição de focos de atuação e visão de futuro,
-            com clareza dos passos a serem adotados e dos investimentos a serem realizados para a execução.
+            Considere a implementação de tecnologias de alto impacto,
+            em alinhamento às necessidades ou oportunidades identificadas
+            de seu negócio, aplicando na prática tendências avançadas de tecnologia.
           </S.Text>
           <S.Text subText>
-            A prática de Estratégia Digital da 1STi conta com especialistas em tecnologia, arquitetura
-            organizacional e análise de missão crítica, permitindo a construção de modelos operacionais
-            digitais consistentes e conectados aos objetivos de sua área ou negócio.
+            Os serviços de inovação deep tech da 1STi envolvem temas como computação quântica,
+            processamento de linguagem natural e inteligência artificial aplicada, com aplicabilidade
+            e segurança, para responder a questões complexas de sua empresa de forma única e à frente do mercado.
           </S.Text>
         </div>
       </S.ContentText>
@@ -48,3 +46,4 @@ function HeaderScreen() {
 }
 
 export default HeaderScreen;
+

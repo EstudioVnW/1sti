@@ -17,22 +17,21 @@ function HeaderScreen() {
             <Title>Digitais</Title>
           </>
           <SubTitle>
-            A tecnologia como meio para transformações profundas
+            O caminho para o presente e o futuro dos negócioscom agilidade aumentada
           </SubTitle>
           <S.Image src={digitalStrategy} alt='Foto de uma abelha em cima de uma flor' mobile />
         </div>
         <div>
           <S.Text>
-            Amplifique a estratégia de negócios com a dimensão digital pensando tecnologia
-            como parte integrante do todo, alavancando otimizações e inovações de alto impacto.
-            Conte com um trabalho de inteligência e aconselhamento para analisar e qualificar demandas
-            e capacidades de sua organização, fundamentando a definição de focos de atuação e visão de futuro,
-            com clareza dos passos a serem adotados e dos investimentos a serem realizados para a execução.
+            Concretize sua estratégia digital através de uma plataforma que aumenta
+            a eficácia operacional e habilita o desenvolvimento de novos produtos ou
+            serviços, com agilidade que proporciona vantagens de mercado a seus negócios.
           </S.Text>
           <S.Text subText>
-            A prática de Estratégia Digital da 1STi conta com especialistas em tecnologia, arquitetura
-            organizacional e análise de missão crítica, permitindo a construção de modelos operacionais
-            digitais consistentes e conectados aos objetivos de sua área ou negócio.
+            Os squads de agilidade aumentada da 1STi estão a postos para construir arquiteturas
+            adequadas à escalabilidade, com discovery conjunto e desenvolvimento de plataformas
+            prontas para a experiência físico-digital, com visão AI nativa e aplicada, habilitando
+            o alcance de novos modelos de negócio, novos mercados ou novas fontes de receita.
           </S.Text>
         </div>
       </S.ContentText>
