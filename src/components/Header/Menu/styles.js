@@ -28,14 +28,16 @@ export const Container = styled.div`
 `
 
 export const ContainerLogo = styled.div`
-  :hover {
-    img {
-      display: none;
-    }
-    figure {
-      display: flex;
+  @media(min-width: 768px) {
+    :hover {
       img {
+        display: none;
+      }
+      figure {
         display: flex;
+        img {
+          display: flex;
+        }
       }
     }
   }
@@ -54,9 +56,11 @@ export const ContainerLogo = styled.div`
 export const Logo = styled.img`
   width: 2.813rem;
 
-  :hover {
-    display: none;
-  } 
+  @media(min-width: 768px) {
+    :hover {
+      display: none;
+    }   
+  }
 
   @media(max-width: 768px) {
     background-color: var(--color_white);

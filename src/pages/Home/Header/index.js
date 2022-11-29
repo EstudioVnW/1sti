@@ -1,3 +1,4 @@
+import React, { useState, useRef } from 'react';
 import * as S from './styles';
 
 //Component
@@ -8,10 +9,24 @@ import ContentHeader from './ContentHeader';
 import Video from '../../../assets/video/headerVideo.mp4';
 
 function HeaderScreen() {
+  const vidRef = useRef();
+  const [play, setPlay] = useState(false);
+
+  const handleClick = () => {
+    if(play){
+      vidRef.current.play();
+    } else {
+      vidRef.current.pause();
+    }
+    setPlay(!play);
+  }
+
   return (
     <Header>
-      <S.Video src={Video} autoPlay controls />
-      <ContentHeader />
+      <S.Video  autoPlay controls ref={vidRef}>
+        <source src={Video} />
+      </S.Video>
+      <ContentHeader handleClick={handleClick} />
     </Header>
   );
 }
