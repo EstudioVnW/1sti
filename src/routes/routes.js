@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 // Onboarding
 import Home from '../pages/Home';
 import Services from '../pages/Services';
+import DigitalStrategy from '../pages/DigitalStrategy';
 
 const NavigateRoutes = () => {
   return (
@@ -19,7 +20,11 @@ const NavigateRoutes = () => {
           path='/servico'
           element={<Services />}
         />
-          <Route
+        <Route
+          path='/estrategia-digital'
+          element={<DigitalStrategy />}
+        />
+        <Route
           path='/*'
           element={<Home />}
         />
