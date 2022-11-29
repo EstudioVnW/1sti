@@ -3,7 +3,7 @@ import * as S from './styles';
 import Card from './Style';
 import ServiceBox from './ServiceBox';
 
-function Services({ service, title, children }) {
+function Services({ service, title, children, width, buttonText }) {
   return (
     <S.Container>
      {service
@@ -11,6 +11,8 @@ function Services({ service, title, children }) {
         full
         paddingTopShort
         title={title}
+        width={width}
+        buttonText={buttonText}
       >
         { children }
       </ServiceBox>}
