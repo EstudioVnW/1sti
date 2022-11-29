@@ -25,8 +25,8 @@ function Menu() {
       nameRoute: 'Serviço',
     },
     {
-      to: '/estrategia-digital',
-      nameRoute: 'Estratégia Digital',
+      to: '/insights',
+      nameRoute: 'Insights',
     },
     {
       to: '/carreiras',
