@@ -13,8 +13,10 @@ export const Container = styled.section`
 `;
 
 export const Content = styled.div`
+  margin: auto;
   @media(max-width: 950px) {
     padding-left: 2rem;
+    width: 100vw;
     overflow: scroll;
   }
 `;
