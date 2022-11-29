@@ -9,7 +9,7 @@ function Insights() {
     <S.Container>
       <SideBox
         full
-        width='21rem'
+        width='25rem'
         title='Insights'
         subTitle='A abordagem Deep Tech para temas do presente e futuro.'
         buttonText='Acesse nosso arquivo'

@@ -4,6 +4,10 @@ export const Container = styled.footer`
   padding: 2.563rem 4.563rem;
   width: 100vw;
   background: var(--color_lightBlack);
+
+  @media(max-width: 768px) {
+    padding: 3.75rem 3.188rem;
+  }
 `;
 
 export const Content = styled.div`

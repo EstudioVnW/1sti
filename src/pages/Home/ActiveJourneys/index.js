@@ -57,6 +57,7 @@ function ActiveJourneys() {
     <S.Container>
       <SideBox
         width='21rem'
+        height
         full
         title='Jornadas'
         secondTitle='Ativas'
