@@ -64,7 +64,8 @@ export const Image  = styled.img`
   display: ${props => props.mobile ? 'none' : 'flex'};
 
   @media(max-width: 768px) {
-    min-width: 70%;
+    width: 100%;
+    max-width: 389px;
     display: ${props => props.mobile ? 'flex' : 'none'};
   }
 `;

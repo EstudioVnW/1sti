@@ -10,6 +10,7 @@ export const Li = styled.li`
   font-family: 'CabinetGrotesk';
   color: var(--color_white);
   list-style: inside;
+  line-height: 1.8rem;
 `
 
 export const Strong = styled.strong`
