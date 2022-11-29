@@ -1,8 +1,8 @@
-import Cards from '../../../components/Card';
+import Cards from '../index';
 
 import * as S from './styles';
 
-function ServicesScreen() {
+function HelpBusiness({ screen }) {
   return (
     <S.Container>
       <Cards
@@ -10,7 +10,7 @@ function ServicesScreen() {
         width='100vw'
         service
         buttonText='Fale conosco'
-        screen='Deep'
+        screen={screen}
       >
         <S.Text>
           Como podemos ajudar a jornada digital do seu negócio?
@@ -20,4 +20,4 @@ function ServicesScreen() {
   );
 }
 
-export default ServicesScreen;
+export default HelpBusiness;

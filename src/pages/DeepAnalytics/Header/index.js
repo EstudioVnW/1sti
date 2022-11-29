@@ -1,7 +1,6 @@
 //Component
 import Header from '../../../components/Header';
 import SubTitle from '../../../components/SubTitle/SubTitle-blue';
-// import ContentHeader from './ContentHeader';
 import { digitalStrategy } from '../../../assets';
 
 import * as S from './styles';

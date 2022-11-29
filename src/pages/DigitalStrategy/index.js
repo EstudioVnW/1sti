@@ -1,13 +1,13 @@
 import Header from './Header';
-import Services from './ContentServices';
 import Footer from '../../components/Footer';
+import Cards from '../../components/Card/HelpBusines-card';
 
 function DigitalStrategyScreen() {
   return (
     <>
       <Header />
       <main>
-        <Services />
+        <Cards  screen='Estratégia' />
       </main>
       <Footer />
     </>

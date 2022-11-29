@@ -1,17 +1,17 @@
 import Header from './Header';
-import Services from './ContentServices';
 import Footer from '../../components/Footer';
+import Cards from '../../components/Card/HelpBusines-card';
 
-function DigitalStrategyScreen() {
+function DeepAnalyticsScreen() {
   return (
     <>
       <Header />
       <main>
-        <Services />
+        <Cards screen='Deep' />
       </main>
       <Footer />
     </>
   );
 }
 
-export default DigitalStrategyScreen;
+export default DeepAnalyticsScreen;

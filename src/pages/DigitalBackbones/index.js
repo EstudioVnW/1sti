@@ -1,17 +1,17 @@
 import Header from './Header';
-import Services from './ContentServices';
 import Footer from '../../components/Footer';
+import Cards from '../../components/Card/HelpBusines-card';
 
-function DigitalStrategyScreen() {
+function DigitalBackbonesScreen() {
   return (
     <>
       <Header />
       <main>
-        <Services />
+        <Cards screen='Backbones' />
       </main>
       <Footer />
     </>
   );
 }
 
-export default DigitalStrategyScreen;
+export default DigitalBackbonesScreen;
