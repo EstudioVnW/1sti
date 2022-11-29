@@ -1,7 +1,7 @@
 import styled, { css } from 'styled-components'
 
 export const Container = styled.footer`
-  padding: 2.563rem 4.563rem;
+  padding: 6.542rem 4.563rem 2.5rem 4.563rem;
   width: 100vw;
   background: var(--color_lightBlack);
 
