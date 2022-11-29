@@ -1,21 +1,21 @@
 import styled from 'styled-components'
 
-export const Container = styled.div`
+export const ContentHeader = styled.div`
   padding: 7rem 3rem 0 4.563rem;
   width: 100vw;
+  height: 100vh;
   display: flex;
   justify-content: space-between;
   background: var(--color_lightBlack);
 
   @media(max-width: 768px) {
-    padding: 7rem 1rem 0 2.063rem;
+    padding-top: rem;
+    padding: 1.813rem 1rem 0 2.063rem;
     height: initial;
   }
 `
 
 export const ContentText = styled.div`
-  padding-bottom: 5rem;
-  height: 100%;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
@@ -33,37 +33,38 @@ export const Title = styled.h1`
   }
 `
 
+export const SubTitle = styled.h2`
+  max-width: 37rem;
+  font-size: 1.875rem;
+  font-family: 'CabinetGrotesk-Bold';
+  color: var(--color_lightBlue);
+
+  @media(max-width: 768px) {
+    padding-bottom: .875rem;
+    font-size: 1.375rem;
+  }
+` 
+
 export const Text = styled.p`
-  padding-top: ${props => props.subText ? '2rem' : '7.313rem'};
-  max-width: 485px;
+  padding-top: 2rem;
+  max-width: 23rem;
   font-size: 1.125rem;
-  font-family: ${props => props.subText ? 'CabinetGrotesk-Medium' : 'CabinetGrotesk-Extrabold'};
+  font-family: 'CabinetGrotesk-Medium';
   color: var(--color_white);
   line-height: 32px;
 
   @media(max-width: 768px) {
-    padding-top: ${props => props.subText ? '1.5rem' : '4rem'};
+    padding-top: 1.25rem;
   }
 `
 
-export const Image = styled.img`
-  padding-top: 6.625rem;
-  margin-right: 3.375rem;
-  width: 35%;
-  min-width: 385px;
+export const Image  = styled.img`
+  place-self: center;
+  width: 45%;
   display: ${props => props.mobile ? 'none' : 'flex'};
-  place-self: flex-start;
-  object-fit: contain;
-
-  @media(max-width: 990px) {
-    margin-right: 0;
-  }
 
   @media(max-width: 768px) {
-    padding-top: 3.188rem;
-    margin: auto;
-    min-width: 100%;
-    max-width: 343px;
+    min-width: 70%;
     display: ${props => props.mobile ? 'flex' : 'none'};
   }
 `;

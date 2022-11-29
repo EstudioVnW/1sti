@@ -10,7 +10,7 @@ function ServicesScreen() {
         width='100vw'
         service
         buttonText='Fale conosco'
-        screen='Estratégia'
+        screen='Plataformas'
       >
         <S.Text>
           Como podemos ajudar a jornada digital do seu negócio?
