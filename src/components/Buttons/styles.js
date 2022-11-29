@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Button = styled.button`
-  margin-right: 1.875rem;
+  margin: 2.438rem 1.875rem 0 0;
   padding: 0 1.438rem;
   height: 3.688rem;
   font-size: 1.063rem;
@@ -13,6 +13,11 @@ export const Button = styled.button`
   display: flex;
   align-items: center;
   cursor: pointer;
+
+  @media(max-width: 768px) {
+    margin-top: 1.563rem;
+    margin-right: .5rem;
+  }
 `;
 
 export const IconPlay = styled.img`

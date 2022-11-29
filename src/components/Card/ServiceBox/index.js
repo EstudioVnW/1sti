@@ -1,24 +1,27 @@
-import Button from '../Buttons';
-import SubTitle from '../SubTitle';
-import Title from '../Title/TextBreak';
+import Button from '../../Buttons';
+import Title from '../../Title/TextBreak';
 import * as S from './styles';
 
 function SideBox({
   width,
+  height,
+  full,
   title,
   secondTitle,
-  subTitle,
+  children,
   buttonText
 }) {
   return (
-    <S.Container width={width}>
+    <S.Container
+     width={width}
+     height={height}
+     full={full}
+    >
       <Title 
         title={title}
         secondTitle={secondTitle}
       />
-      <SubTitle>
-        {subTitle}
-      </SubTitle>
+      { children }
       {buttonText && (
         <Button>
           {buttonText}

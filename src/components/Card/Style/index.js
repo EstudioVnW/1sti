@@ -1,7 +1,8 @@
 import * as S from './styles';
 
-function ServiceBox({ firstTitle, secondTitle, subtitle }) {
+import { iconMore } from '../../../assets';
 
+function Card({ firstTitle, secondTitle, subtitle }) {
   return (
     <S.Container>
       <>
@@ -11,10 +12,10 @@ function ServiceBox({ firstTitle, secondTitle, subtitle }) {
       <S.Text> {subtitle} </S.Text>
       <S.Button>
         <S.ButtonText>Saiba mais</S.ButtonText>
-        <S.TagMore>+</S.TagMore>
+        <img src={iconMore} alt='Icone de de saiba mais' />
       </S.Button>
     </S.Container>
   );
 }
 
-export default ServiceBox;
+export default Card;

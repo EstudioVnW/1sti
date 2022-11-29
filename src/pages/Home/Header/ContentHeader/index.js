@@ -1,7 +1,11 @@
 import * as S from './styles';
-import Button from "../../Buttons";
+import Button from '../../../../components/Buttons';
 
-function ContentHeader() {
+function ContentHeader({ handleClick }) {
+  // const handleClick = () => {
+  //   window.location.href = 'https://open.spotify.com/show/0qt3HmilnkVnVYyXVN132P'
+  // }
+
   const renderContentText = () => (
     <>
       <S.Title>Tecnologia <br /> com Alma e Impacto</S.Title>
@@ -17,7 +21,7 @@ function ContentHeader() {
 
   const renderContentButtons = () => (
     <S.ContentButton>
-      <Button hasIcon>
+      <Button hasIcon onClick={handleClick}>
         Entenda Deep Tech
       </Button>
       <Button noColor>

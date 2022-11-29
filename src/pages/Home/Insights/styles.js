@@ -5,4 +5,18 @@ export const Container = styled.section`
   width: 100vw;
   display: flex;
   flex-direction: row;
+
+  @media(max-width: 950px) {
+    padding-top: 0;
+    flex-direction: column;
+  }
+`;
+
+export const Content = styled.div`
+  margin: auto;
+  @media(max-width: 950px) {
+    padding-left: 2rem;
+    width: 100vw;
+    overflow: scroll;
+  }
 `;

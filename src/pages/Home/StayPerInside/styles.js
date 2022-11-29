@@ -8,8 +8,10 @@ export const Container = styled.section`
 `;
 
 export const Box = styled.div`
+  padding: 0 1.688rem;
   margin: auto;
-  width: 40.813rem;
+  width: 90vw;
+  max-width: 40.813rem;
   height: 424px;
   display: flex;
   justify-content: center;
@@ -17,7 +19,7 @@ export const Box = styled.div`
   align-items: center;
   box-shadow: inset 0px 0px 50px var(--unnamed-color-00c8db);
   border: 1.5px solid var(--unnamed-color-00c8db);
-  background: #0B1617 0% 0% no-repeat padding-box;
+  background: var(--color_lightBlack) 0% 0% no-repeat padding-box;
   box-shadow: inset 0px 0px 50px #00C8DB;
   border: 2px solid #00C8DB;
 `;
@@ -44,6 +46,10 @@ export const ContentRegister = styled.div`
   justify-content: space-between;
   border-bottom: 1px solid var(--color_red);
   cursor: pointer;
+
+  @media(max-width: 600px) {
+    width: 100%;
+  }
 `;
 
 export const TextRegister = styled.p`

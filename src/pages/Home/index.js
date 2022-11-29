@@ -1,4 +1,4 @@
-import Header from '../../components/Header';
+import Header from './Header';
 import Services from './Services';
 import ActiveJourneys from './ActiveJourneys';
 import Insights from './Insights';
