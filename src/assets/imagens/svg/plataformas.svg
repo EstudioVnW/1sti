@@ -1,0 +1,185 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="297.494" height="289.93" viewBox="0 0 297.494 289.93">
+  <defs>
+    <style>
+      .cls-1, .cls-8 {
+        isolation: isolate;
+      }
+
+      .cls-2 {
+        fill: #0b1617;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-11, .cls-4, .cls-5 {
+        fill: none;
+      }
+
+      .cls-4 {
+        stroke: #af39e6;
+      }
+
+      .cls-5 {
+        stroke: #ff0070;
+      }
+
+      .cls-6 {
+        fill: #e3e3e3;
+        font-size: 9px;
+        font-family: CabinetGrotesk-Bold, Cabinet Grotesk;
+        font-weight: 700;
+        letter-spacing: 0.1em;
+      }
+
+      .cls-7 {
+        fill: #ff0070;
+      }
+
+      .cls-8 {
+        opacity: 0.5;
+        mix-blend-mode: screen;
+        fill: url(#radial-gradient);
+      }
+
+      .cls-9 {
+        fill: #af39e6;
+      }
+
+      .cls-10 {
+        stroke: none;
+      }
+
+      .cls-12 {
+        filter: url(#Elipse_2177);
+      }
+
+      .cls-13 {
+        filter: url(#Elipse_2178);
+      }
+
+      .cls-14 {
+        filter: url(#Elipse_2179);
+      }
+
+      .cls-15 {
+        filter: url(#Elipse_2180);
+      }
+    </style>
+    <filter id="Elipse_2180">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="20" result="blur"/>
+      <feFlood flood-color="#742698" result="color"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur"/>
+      <feComposite operator="in" in="color"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+    <filter id="Elipse_2179">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="20" result="blur-2"/>
+      <feFlood flood-color="#742698" result="color-2"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-2"/>
+      <feComposite operator="in" in="color-2"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+    <filter id="Elipse_2178">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="20" result="blur-3"/>
+      <feFlood flood-color="#742698" result="color-3"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-3"/>
+      <feComposite operator="in" in="color-3"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+    <filter id="Elipse_2177">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="20" result="blur-4"/>
+      <feFlood flood-color="#ff0070" result="color-4"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-4"/>
+      <feComposite operator="in" in="color-4"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#af39e6"/>
+      <stop offset="1" stop-color="#0b1617" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <g id="Grupo_23944" data-name="Grupo 23944" class="cls-1" transform="translate(-586.112 -78.837)">
+    <g id="Grupo_23769" data-name="Grupo 23769" transform="translate(586.112 210.59)">
+      <g data-type="innerShadowGroup">
+        <ellipse id="Elipse_2180-2" data-name="Elipse 2180" class="cls-2" cx="110.747" cy="79.089" rx="110.747" ry="79.089" transform="translate(0 0)"/>
+        <g class="cls-15" transform="matrix(1, 0, 0, 1, 0, -131.75)">
+          <ellipse id="Elipse_2180-3" data-name="Elipse 2180" class="cls-3" cx="110.747" cy="79.089" rx="110.747" ry="79.089" transform="translate(0 131.75)"/>
+        </g>
+        <g id="Elipse_2180-4" data-name="Elipse 2180" class="cls-4" transform="translate(0 0)">
+          <ellipse class="cls-10" cx="110.747" cy="79.089" rx="110.747" ry="79.089"/>
+          <ellipse class="cls-11" cx="110.747" cy="79.089" rx="110.247" ry="78.589"/>
+        </g>
+      </g>
+      <g data-type="innerShadowGroup">
+        <ellipse id="Elipse_2179-2" data-name="Elipse 2179" class="cls-2" cx="89.57" cy="61.098" rx="89.57" ry="61.098" transform="translate(11.27 33.609)"/>
+        <g class="cls-14" transform="matrix(1, 0, 0, 1, 0, -131.75)">
+          <ellipse id="Elipse_2179-3" data-name="Elipse 2179" class="cls-3" cx="89.57" cy="61.098" rx="89.57" ry="61.098" transform="translate(11.27 165.36)"/>
+        </g>
+        <g id="Elipse_2179-4" data-name="Elipse 2179" class="cls-4" transform="translate(11.27 33.609)">
+          <ellipse class="cls-10" cx="89.57" cy="61.098" rx="89.57" ry="61.098"/>
+          <ellipse class="cls-11" cx="89.57" cy="61.098" rx="89.07" ry="60.598"/>
+        </g>
+      </g>
+      <g data-type="innerShadowGroup">
+        <ellipse id="Elipse_2178-2" data-name="Elipse 2178" class="cls-2" cx="69.106" cy="43.599" rx="69.106" ry="43.599" transform="translate(21.354 66.234)"/>
+        <g class="cls-13" transform="matrix(1, 0, 0, 1, 0, -131.75)">
+          <ellipse id="Elipse_2178-3" data-name="Elipse 2178" class="cls-3" cx="69.106" cy="43.599" rx="69.106" ry="43.599" transform="translate(21.35 197.99)"/>
+        </g>
+        <g id="Elipse_2178-4" data-name="Elipse 2178" class="cls-4" transform="translate(21.354 66.234)">
+          <ellipse class="cls-10" cx="69.106" cy="43.599" rx="69.106" ry="43.599"/>
+          <ellipse class="cls-11" cx="69.106" cy="43.599" rx="68.606" ry="43.099"/>
+        </g>
+      </g>
+      <g data-type="innerShadowGroup">
+        <ellipse id="Elipse_2177-2" data-name="Elipse 2177" class="cls-2" cx="49.531" cy="23.431" rx="49.531" ry="23.431" transform="translate(30.252 102.418)"/>
+        <g class="cls-12" transform="matrix(1, 0, 0, 1, 0, -131.75)">
+          <ellipse id="Elipse_2177-3" data-name="Elipse 2177" class="cls-3" cx="49.531" cy="23.431" rx="49.531" ry="23.431" transform="translate(30.25 234.17)"/>
+        </g>
+        <g id="Elipse_2177-4" data-name="Elipse 2177" class="cls-5" transform="translate(30.252 102.418)">
+          <ellipse class="cls-10" cx="49.531" cy="23.431" rx="49.531" ry="23.431"/>
+          <ellipse class="cls-11" cx="49.531" cy="23.431" rx="49.031" ry="22.931"/>
+        </g>
+      </g>
+      <text id="Serviços_Digitais" data-name="Serviços
+Digitais" class="cls-6" transform="translate(90.651 82.521)"><tspan x="-24.156" y="0">SERVIÇOS</tspan><tspan x="-20.236" y="10">DIGITAIS</tspan></text>
+      <text id="Componentes_De_crescimento" data-name="Componentes
+De crescimento" class="cls-6" transform="translate(100.847 49.972)"><tspan x="-36.963" y="0">COMPONENTES</tspan><tspan x="-42.642" y="10">DE CRESCIMENTO</tspan></text>
+      <text id="Pontos_de_extensão_E_flexibilidade" data-name="Pontos de extensão
+E flexibilidade" class="cls-6" transform="translate(110.742 18.899)"><tspan x="-54.504" y="0">PONTOS DE EXTENSÃO</tspan><tspan x="-40.023" y="10">E FLEXIBILIDADE</tspan></text>
+      <text id="Proposta_de_valor_elevada" data-name="Proposta de 
+valor elevada" class="cls-6" transform="translate(80.221 124.078)"><tspan x="-35.028" y="0">PROPOSTA DE </tspan><tspan x="-38.821" y="10">VALOR ELEVADA</tspan></text>
+    </g>
+    <text id="Efeito_Em_rede" data-name="Efeito
+Em rede" class="cls-6" transform="translate(853.84 119.136)"><tspan x="-16.24" y="0">EFEITO</tspan><tspan x="-20.907" y="10">EM REDE</tspan></text>
+    <text id="Inovações_Em_jornada" data-name="Inovações
+Em jornada" class="cls-6" transform="translate(751.051 178.544)"><tspan x="-28.102" y="0">INOVAÇÕES</tspan><tspan x="-31.743" y="10">EM JORNADA</tspan></text>
+    <text id="Personalização_Por_dados" data-name="Personalização
+Por dados" class="cls-6" transform="translate(836.869 191.716)"><tspan x="-43.789" y="0">PERSONALIZAÇÃO</tspan><tspan x="-28.48" y="10">POR DADOS</tspan></text>
+    <text id="Crescimento_De_usuários" data-name="Crescimento
+De usuários" class="cls-6" transform="translate(778.739 104.336)"><tspan x="-34.708" y="0">CRESCIMENTO</tspan><tspan x="-32.4" y="10">DE USUÁRIOS</tspan></text>
+    <g id="Grupo_23750" data-name="Grupo 23750" transform="translate(734.629 137.199) rotate(-30)">
+      <path id="Caminho_9203" data-name="Caminho 9203" class="cls-5" d="M0,28.2S.483,3.974,24.372,0" transform="translate(0 3.523)"/>
+      <path id="Polígono_6" data-name="Polígono 6" class="cls-7" d="M2.327,1.248a1,1,0,0,1,1.664,0l1.29,1.936a1,1,0,0,1-.832,1.555H1.869a1,1,0,0,1-.832-1.555Z" transform="translate(29.087 0) rotate(90)"/>
+    </g>
+    <g id="Grupo_23751" data-name="Grupo 23751" transform="matrix(-0.839, 0.545, -0.545, -0.839, 884.837, 166.035)">
+      <path id="Caminho_9203-2" data-name="Caminho 9203" class="cls-5" d="M0,28.2S.483,3.974,24.372,0" transform="translate(0 3.523)"/>
+      <path id="Polígono_6-2" data-name="Polígono 6" class="cls-7" d="M2.327,1.248a1,1,0,0,1,1.664,0l1.29,1.936a1,1,0,0,1-.832,1.555H1.869a1,1,0,0,1-.832-1.555Z" transform="translate(29.087 0) rotate(90)"/>
+    </g>
+    <g id="Grupo_23752" data-name="Grupo 23752" transform="translate(836.928 77.806) rotate(61)">
+      <path id="Caminho_9203-3" data-name="Caminho 9203" class="cls-5" d="M0,28.2S.483,3.974,24.372,0" transform="translate(0 3.523)"/>
+      <path id="Polígono_6-3" data-name="Polígono 6" class="cls-7" d="M2.327,1.248a1,1,0,0,1,1.664,0l1.29,1.936a1,1,0,0,1-.832,1.555H1.869a1,1,0,0,1-.832-1.555Z" transform="translate(29.087 0) rotate(90)"/>
+    </g>
+    <g id="Grupo_23753" data-name="Grupo 23753" transform="matrix(-0.53, -0.848, 0.848, -0.53, 785.648, 222.772)">
+      <path id="Caminho_9203-4" data-name="Caminho 9203" class="cls-5" d="M0,28.2S.483,3.974,24.372,0" transform="translate(0 3.523)"/>
+      <path id="Polígono_6-4" data-name="Polígono 6" class="cls-7" d="M2.327,1.248a1,1,0,0,1,1.664,0l1.29,1.936a1,1,0,0,1-.832,1.555H1.869a1,1,0,0,1-.832-1.555Z" transform="translate(29.087 0) rotate(90)"/>
+    </g>
+    <ellipse id="Elipse_2176" data-name="Elipse 2176" class="cls-8" cx="49.044" cy="45.227" rx="49.044" ry="45.227" transform="matrix(0.951, 0.309, -0.309, 0.951, 776.517, 92.343)"/>
+    <ellipse id="Elipse_2181" data-name="Elipse 2181" class="cls-9" cx="2.369" cy="2.369" rx="2.369" ry="2.369" transform="translate(807.605 148.142)"/>
+  </g>
+</svg>

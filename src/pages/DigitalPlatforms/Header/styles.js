@@ -47,10 +47,11 @@ export const Text = styled.p`
 `
 
 export const Image = styled.img`
-  padding-top: 6.625rem;
-  margin-right: 3.375rem;
+  padding-top: 3.563rem;
+  margin-right: 5%;
   width: 35%;
   min-width: 385px;
+  max-width: 600px;
   display: ${props => props.mobile ? 'none' : 'flex'};
   place-self: flex-start;
   object-fit: contain;
