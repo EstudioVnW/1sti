@@ -7,7 +7,7 @@ export const Container = styled.div`
   right: 0;
   padding: 0 4.625rem 0 5.625rem;
   width: 100vw;
-  height: 4.594rem;
+  height: 4.625rem;
   background-color: var(--color_grey01);
   display: flex;
   justify-content: space-between;
@@ -16,8 +16,6 @@ export const Container = styled.div`
   z-index: 1;
   
   @media(max-width: 768px) {
-    position: relative;
-    top: 0;
     padding: 0;
     height: ${props => props.isOpenMenu && '100vh'};
     justify-content: initial;
@@ -27,7 +25,9 @@ export const Container = styled.div`
 	}
 `
 
-export const ContainerLogo = styled.div`
+export const ContainerLogo = styled.span`
+  min-height: 45px;
+
   @media(min-width: 768px) {
     :hover {
       img {
@@ -43,13 +43,11 @@ export const ContainerLogo = styled.div`
   }
 
   @media(max-width: 768px) {
-    margin-top: 0.625rem;
     padding: .563rem 0;
     width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--color_white);
 	}
 `
 
@@ -61,10 +59,6 @@ export const Logo = styled.img`
       display: none;
     }   
   }
-
-  @media(max-width: 768px) {
-    background-color: var(--color_white);
-	}
 `
 
 export const Figure = styled.figure`

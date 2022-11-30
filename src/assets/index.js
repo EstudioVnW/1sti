@@ -35,3 +35,5 @@ export { default as conch } from './imagens/conch.png';
 export { default as futureOfEducation } from './imagens/futureOfEducation.svg';
 export { default as bookDeepTech } from './imagens/bookDeepTech.png';
 export { default as photoServices } from './imagens/services.png';
+export { default as digitalStrategy } from './imagens/digitalStrategy.png';
+export { default as pageNotFound } from './imagens/pageNotFound_img.png';

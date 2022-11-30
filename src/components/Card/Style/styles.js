@@ -1,13 +1,13 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
+  display: ${props => props.screen && 'none'};
   position: relative;
   padding: 3.75rem 3rem 3.708rem 4.563rem;
   background: var(--color_black);
-  width: 33.33%;
+  width: ${props => props.smallCard ? '25%' : '33.33%'};
   height: 28.458rem;
   border: 1px solid var(--color_lightBlack);
-  cursor: pointer;
 
   :hover {
     box-shadow: inset 0px 0px 70px #AF39E6;
@@ -15,6 +15,10 @@ export const Container = styled.div`
     h4 {
       color: var(--color_ciano);
     }
+  }
+
+  @media(max-width: 990px) {
+    padding: ${props => props.smallCard && '3.75rem 1rem 3.708rem 1.563rem'};
   }
 
   @media(max-width: 768px) {
@@ -58,6 +62,7 @@ export const Button = styled.button`
   position: absolute;
   bottom: 3.708rem;
   background: transparent;
+  cursor: pointer;
 `;
 
 export const ButtonText = styled.p`
