@@ -1,6 +1,5 @@
 import * as S from './styles';
 
-// import { useHistory } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
 
 import { iconMore } from '../../../assets';
@@ -14,10 +13,6 @@ function Card({
     route
   }) {
   const navigate = useNavigate();
-  
-  // const handleClick = (route) => {
-  //   navigate(route);
-  // }
 
   return (
     <S.Container
