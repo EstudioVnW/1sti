@@ -23,7 +23,7 @@ function HeaderScreen() {
 
   return (
     <Header>
-      <S.Video  autoPlay controls ref={vidRef}>
+      <S.Video  autoPlay controls ref={vidRef} muted>
         <source src={Video} />
       </S.Video>
       <ContentHeader handleClick={handleClick} />

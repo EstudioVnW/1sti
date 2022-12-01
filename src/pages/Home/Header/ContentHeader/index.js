@@ -2,10 +2,6 @@ import * as S from './styles';
 import Button from '../../../../components/Buttons';
 
 function ContentHeader({ handleClick }) {
-  // const handleClick = () => {
-  //   window.location.href = 'https://open.spotify.com/show/0qt3HmilnkVnVYyXVN132P'
-  // }
-
   const renderContentText = () => (
     <>
       <S.Title>Tecnologia <br /> com Alma e Impacto</S.Title>

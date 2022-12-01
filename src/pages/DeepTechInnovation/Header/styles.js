@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-  padding: 7rem 3rem 0 4.563rem;
+  padding: 7rem 3rem 6.938rem 4.563rem;
   width: 100vw;
   display: flex;
   justify-content: space-between;
@@ -49,7 +49,7 @@ export const Text = styled.p`
 export const Image = styled.img`
   padding-top: 6.625rem;
   margin-right: 3.375rem;
-  width: 35%;
+  width: 617.54px;
   min-width: 385px;
   display: ${props => props.mobile ? 'none' : 'flex'};
   place-self: flex-start;
@@ -61,9 +61,42 @@ export const Image = styled.img`
 
   @media(max-width: 768px) {
     padding-top: 3.188rem;
-    margin: auto;
-    min-width: 100%;
+    margin: ${props => props.firstImg && 'auto'};
+    width: 100%;
+    min-width: 361.10px;
     max-width: 343px;
     display: ${props => props.mobile ? 'flex' : 'none'};
   }
+
+  @media(max-width: 768px) {
+    min-width: auto;
+  }
+
+`;
+
+export const ContentCards = styled.div`
+  max-width: 625.54px;
+  display: flex;
+  flex-wrap: wrap;
+`;
+
+export const Card = styled.div`
+  margin: 0 .466rem .488rem 0;
+  width: 7.346rem;
+  height: 8.204rem;
+  box-shadow: inset 0px 0px 20px #AD7CC4;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+`;
+
+export const CardText = styled.p`
+  padding-top: 1rem;
+  max-width: 95.77px;
+  font-size: .688rem;
+  font-family: 'CabinetGrotesk-Bold';
+  color: var(--color_white);
+  text-align: center;
 `;

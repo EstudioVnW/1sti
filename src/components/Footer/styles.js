@@ -6,7 +6,7 @@ export const Container = styled.footer`
   background: var(--color_lightBlack);
 
   @media(max-width: 768px) {
-    padding: 3.75rem 3.188rem;
+    padding: 3.75rem 2.031rem;
   }
 `;
 

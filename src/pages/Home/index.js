@@ -10,7 +10,7 @@ import * as S from './styles';
 
 function Home() {
   return (
-    <div>
+    <>
       <Header />
       <S.Main>
         <Services />
@@ -20,7 +20,7 @@ function Home() {
         <StayPerInside />
       </S.Main>
       <Footer />
-    </div>
+    </>
   );
 }
 
