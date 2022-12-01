@@ -35,5 +35,13 @@ export { default as conch } from './imagens/conch.png';
 export { default as futureOfEducation } from './imagens/futureOfEducation.svg';
 export { default as bookDeepTech } from './imagens/bookDeepTech.png';
 export { default as photoServices } from './imagens/services.png';
-export { default as digitalStrategy } from './imagens/digitalStrategy.png';
+export { default as digitalStrategy } from './imagens/services/digitalStrategy.png';
+export { default as platforms } from './imagens/services/platforms.png';
+export { default as analystics } from './imagens/deep_analystics.png';
+export { default as backbones } from './imagens/services/backbones.png';
 export { default as pageNotFound } from './imagens/pageNotFound_img.png';
+
+//Imagens Icons innovation
+export { default as innovation } from './imagens/services/innovation/innovation.svg';
+export { default as innovationMob } from './imagens/services/innovation/innovation-mob.svg';
+export { default as innovationDesck } from './imagens/services/innovation/innovation_desck.png';

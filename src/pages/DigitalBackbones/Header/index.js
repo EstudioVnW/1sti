@@ -1,11 +1,11 @@
 //Component
 import Header from '../../../components/Header';
 import SubTitle from '../../../components/SubTitle/SubTitle-blue';
-// import ContentHeader from './ContentHeader';
-import { digitalStrategy } from '../../../assets';
+import Title from '../../../components/Title';
+
+import { backbones } from '../../../assets';
 
 import * as S from './styles';
-import Title from '../../../components/Title';
 
 function HeaderScreen() {
 
@@ -14,13 +14,13 @@ function HeaderScreen() {
       <S.ContentText>
         <div>
           <>
-            <Title>Backbones</Title>
+            <Title>backbones</Title>
             <Title>Digitais</Title>
           </>
           <SubTitle>
            Acelerando inovações com agilidade aumentada
           </SubTitle>
-          <S.Image src={digitalStrategy} alt='Foto de uma abelha em cima de uma flor' mobile />
+          <S.Image src={backbones} alt='Foto de uma abelha em cima de uma flor' mobile />
         </div>
         <div>
           <S.Text>
@@ -30,14 +30,14 @@ function HeaderScreen() {
             de oportunidades de mercado.
           </S.Text>
           <S.Text subText>
-            Os Backbones Digitais construídos pela 1STi implementam uma
+            Os backbones Digitais construídos pela 1STi implementam uma
             espinha dorsal de tecnologia de missão crítica com interoperabilidade, escalabilidade e
             integridade costuradas em seu DNA, abrindo caminho para que sua equipe desenvolva plataformas
             digitais que geram inovações profundas.
           </S.Text>
         </div>
       </S.ContentText>
-      <S.Image src={digitalStrategy} alt='Foto de uma abelha em cima de uma flor' />
+      <S.Image src={backbones} alt='Foto de uma abelha em cima de uma flor' />
     </S.Container>
   )
   return (

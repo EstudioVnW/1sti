@@ -42,14 +42,14 @@ export const Text = styled.p`
   line-height: 32px;
 
   @media(max-width: 768px) {
-    padding-top: ${props => props.subText ? '1.5rem' : '4rem'};
+    padding-top: ${props => props.subText ? '1.5rem' : '1.647rem'};
   }
 `
 
 export const Image = styled.img`
   padding-top: 6.625rem;
   margin-right: 3.375rem;
-  width: 35%;
+  width: 40%;
   min-width: 385px;
   display: ${props => props.mobile ? 'none' : 'flex'};
   place-self: flex-start;
@@ -60,7 +60,7 @@ export const Image = styled.img`
   }
 
   @media(max-width: 768px) {
-    padding-top: 3.188rem;
+    padding: .5rem 0 0 0; 
     margin: auto;
     min-width: 100%;
     max-width: 343px;

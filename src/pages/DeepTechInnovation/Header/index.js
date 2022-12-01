@@ -2,7 +2,11 @@
 import Header from '../../../components/Header';
 import SubTitle from '../../../components/SubTitle/SubTitle-blue';
 // import ContentHeader from './ContentHeader';
-import { digitalStrategy } from '../../../assets';
+import {
+  innovation,
+  innovationMob,
+  innovationDesck
+} from '../../../assets';
 
 import * as S from './styles';
 import Title from '../../../components/Title';
@@ -20,7 +24,7 @@ function HeaderScreen() {
           <SubTitle>
             Tecnologias visionárias para inovação de alto impacto
           </SubTitle>
-          <S.Image src={digitalStrategy} alt='Foto de uma abelha em cima de uma flor' mobile />
+          <S.Image src={innovation} alt='Foto ilustrativa' mobile firstImg/>
         </div>
         <div>
           <S.Text>
@@ -34,8 +38,9 @@ function HeaderScreen() {
             e segurança, para responder a questões complexas de sua empresa de forma única e à frente do mercado.
           </S.Text>
         </div>
+        <S.Image src={innovationMob} alt='Foto ilustrativa' mobile />
       </S.ContentText>
-      <S.Image src={digitalStrategy} alt='Foto de uma abelha em cima de uma flor' />
+      <S.Image src={innovationDesck} alt='Foto ilustrativa' />
     </S.Container>
   )
   return (
