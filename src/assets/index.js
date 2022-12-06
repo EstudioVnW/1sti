@@ -7,6 +7,10 @@ export { default as iconMore } from './icons/iconMore.svg';
 export { default as purpleLeftArrow } from './icons/purpleLeftArrow.svg';
 export { default as purpleRightArrow } from './icons/purpleRightArrow.svg';
 export { default as redArrow } from './icons/redArrow.svg';
+export { default as globe } from './icons/globe_icon.svg';
+export { default as arrowUpBlue } from './icons/arrow-up-right-blue.svg';
+export { default as whiteArrow } from './icons/whiteArrow.svg';
+
 
 //Rede Social
 export { default as medium } from './socialNetworks/medium-logo.svg';
