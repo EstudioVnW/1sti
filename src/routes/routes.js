@@ -10,6 +10,7 @@ import DigitalPlatforms from '../pages/DigitalPlatforms';
 import DeepTechInnovation from '../pages/DeepTechInnovation';
 import DigitalBackbones from '../pages/DigitalBackbones';
 import DeepAnalytics from '../pages/DeepAnalytics';
+import Contact from '../pages/Contact';
 import PageNotFound from '../pages/PageNotFound';
 
 const NavigateRoutes = () => {
@@ -45,6 +46,11 @@ const NavigateRoutes = () => {
           path='/deep-analytics'
           element={<DeepAnalytics />}
         />
+        <Route
+          path='/contato'
+          element={<Contact />}
+        />
+        
         <Route
           path='/*'
           element={<PageNotFound />}
