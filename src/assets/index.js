@@ -7,6 +7,10 @@ export { default as iconMore } from './icons/iconMore.svg';
 export { default as purpleLeftArrow } from './icons/purpleLeftArrow.svg';
 export { default as purpleRightArrow } from './icons/purpleRightArrow.svg';
 export { default as redArrow } from './icons/redArrow.svg';
+export { default as globe } from './icons/globe_icon.svg';
+export { default as arrowUpBlue } from './icons/arrow-up-right-blue.svg';
+export { default as whiteArrow } from './icons/whiteArrow.svg';
+
 
 //Rede Social
 export { default as medium } from './socialNetworks/medium-logo.svg';
@@ -35,5 +39,13 @@ export { default as conch } from './imagens/conch.png';
 export { default as futureOfEducation } from './imagens/futureOfEducation.svg';
 export { default as bookDeepTech } from './imagens/bookDeepTech.png';
 export { default as photoServices } from './imagens/services.png';
-export { default as digitalStrategy } from './imagens/digitalStrategy.png';
+export { default as digitalStrategy } from './imagens/services/digitalStrategy.png';
+export { default as platforms } from './imagens/services/platforms.png';
+export { default as analystics } from './imagens/deep_analystics.png';
+export { default as backbones } from './imagens/services/backbones.png';
 export { default as pageNotFound } from './imagens/pageNotFound_img.png';
+
+//Imagens Icons innovation
+export { default as innovation } from './imagens/services/innovation/innovation.svg';
+export { default as innovationMob } from './imagens/services/innovation/innovation-mob.svg';
+export { default as innovationDesck } from './imagens/services/innovation/innovation_desck.png';

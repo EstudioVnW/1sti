@@ -1,12 +1,15 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
+  position: relative;
   padding: 7rem 3rem 0 4.563rem;
   width: 100vw;
+  height: 100vh;
   display: flex;
   justify-content: space-between;
   background: var(--color_lightBlack);
-
+  overflow: hidden;
+  
   @media(max-width: 768px) {
     padding: 7rem 1rem 0 2.063rem;
     height: initial;
@@ -14,11 +17,15 @@ export const Container = styled.div`
 `
 
 export const ContentText = styled.div`
+  padding-top: 1.875rem;
   padding-bottom: 5rem;
-  height: 100%;
+  height: 100vh;
   display: flex;
-  justify-content: space-between;
   flex-direction: column;
+
+  div {
+    z-index: 1;
+  }
 `
 
 export const Title = styled.h1`
@@ -40,6 +47,7 @@ export const Text = styled.p`
   font-family: ${props => props.subText ? 'CabinetGrotesk-Medium' : 'CabinetGrotesk-Extrabold'};
   color: var(--color_white);
   line-height: 32px;
+  z-index: 1;
 
   @media(max-width: 768px) {
     padding-top: ${props => props.subText ? '1.5rem' : '4rem'};
@@ -47,9 +55,10 @@ export const Text = styled.p`
 `
 
 export const Image = styled.img`
-  padding-top: 6.625rem;
-  margin-right: 3.375rem;
-  width: 35%;
+  position: absolute;
+  top: -94px;
+  right: -460px;
+  width: 110rem;
   min-width: 385px;
   display: ${props => props.mobile ? 'none' : 'flex'};
   place-self: flex-start;
@@ -60,10 +69,17 @@ export const Image = styled.img`
   }
 
   @media(max-width: 768px) {
-    padding-top: 3.188rem;
-    margin: auto;
+    position: relative;
+    top: 0;
+    right: 0;
     min-width: 100%;
     max-width: 343px;
-    display: ${props => props.mobile ? 'flex' : 'none'};
+    display: ${props => props.mobile ? 'flex' : 'none'}; 
+  }
+
+  @media(max-width: 425px) {
+    left: -20%;
+    width: 130%;
+    max-width: initial;
   }
 `;

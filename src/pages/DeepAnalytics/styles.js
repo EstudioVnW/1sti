@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const ContentHeader = styled.div`
   padding: 7rem 3rem 0 4.563rem;
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   display: flex;
   justify-content: space-between;

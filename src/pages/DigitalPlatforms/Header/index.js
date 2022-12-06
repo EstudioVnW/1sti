@@ -1,8 +1,8 @@
 //Component
 import Header from '../../../components/Header';
 import SubTitle from '../../../components/SubTitle/SubTitle-blue';
-// import ContentHeader from './ContentHeader';
-import { digitalStrategy } from '../../../assets';
+
+import { platforms } from '../../../assets';
 
 import * as S from './styles';
 import Title from '../../../components/Title';
@@ -19,7 +19,7 @@ function HeaderScreen() {
           <SubTitle>
             O caminho para o presente e o futuro dos negócioscom agilidade aumentada
           </SubTitle>
-          <S.Image src={digitalStrategy} alt='Foto de uma abelha em cima de uma flor' mobile />
+          <S.Image src={platforms} alt='Foto de uma abelha em cima de uma flor' mobile />
         </div>
         <div>
           <S.Text>
@@ -35,7 +35,7 @@ function HeaderScreen() {
           </S.Text>
         </div>
       </S.ContentText>
-      <S.Image src={digitalStrategy} alt='Foto de uma abelha em cima de uma flor' />
+      <S.Image src={platforms} alt='Foto de uma abelha em cima de uma flor' />
     </S.Container>
   )
   return (

@@ -6,7 +6,7 @@ export const Container = styled.footer`
   background: var(--color_lightBlack);
 
   @media(max-width: 768px) {
-    padding: 3.75rem 3.188rem;
+    padding: 3.75rem 2.031rem;
   }
 `;
 
@@ -17,10 +17,6 @@ export const Content = styled.div`
   flex-wrap: wrap;
   justify-content: space-between;
   border-top: 1px solid var(--color_lightBlue);
-
-  @media(max-width: 500px) {
-    flex-direction: column;
-  }
 `;
 
 export const Box = styled.div`
@@ -30,29 +26,18 @@ export const Box = styled.div`
   `}
 
   @media(max-width: 768px) {
+    width: ${props => props.logo ? 'initial' : '20rem'};
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-direction: column-reverse;
     order: ${props => props.order};
+    
+    button {
+      margin-top: 0;
+    }
   }
 
-  ${props => props.logo && css`
-    @media(max-width: 768px) {
-      width: 50%;
-      align-items: flex-end;
-      justify-content: flex-end;
-      flex-direction: column-reverse;
-    }
-   
-    @media(max-width: 500px) {
-      width: auto;
-      align-items: flex-start;width: auto;
-      align-items: flex-start;
 
-      div:nth-child(1) {
-        img {
-          margin-bottom: 0;
-        }
-      }
-    }
-  `}
 `;
 
 export const LogoPactoGlobal = styled.img`
@@ -61,22 +46,17 @@ export const LogoPactoGlobal = styled.img`
   object-fit: contain;
 
   @media(max-width: 768px) {
-    width: 7rem;
+    width: 5.438rem;
   }
 `;
 
 export const LogoIcon = styled.img`
   padding-right: ${props => props.lastItem ? '0' : '1.643rem'};
-  widtht: ${props => props.lastItem ? '2.938rem' : '3.938rem'};
 
   @media(max-width: 768px) {
     margin: 0 0 2rem 2rem;
     padding: 0;
-    width: 2.938rem;
-  }
-
-  @media(max-width: 500px) {
-    margin: 0 2rem 2rem 0;
+    width: 2.177rem;
   }
 `;
 
