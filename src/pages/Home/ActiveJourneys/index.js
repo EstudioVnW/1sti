@@ -1,3 +1,4 @@
+import { useNavigate } from 'react-router-dom';
 import * as S from './styles';
 
 import SideBox from '../../../components/Card/ServiceBox';
@@ -14,6 +15,8 @@ import SubTitle from '../../../components/SubTitle';
 import Button from '../../../components/Buttons';
 
 function ActiveJourneys() {
+  const navigate = useNavigate();
+
   const renderContentEducation = () => (
     <>
       <S.Title>educação</S.Title>
@@ -47,14 +50,14 @@ function ActiveJourneys() {
 
   const renderButton = (descktop) => (
     <S.ContentButton descktop={descktop}>
-      <Button>
+      <Button onClick={() => navigate('/contato')}>
         Inicie sua jornada
       </Button>
     </S.ContentButton>
   )
 
   return (
-    <S.Container>
+    <S.Container id="ActiveJourneys">
       <SideBox
         width='21rem'
         height

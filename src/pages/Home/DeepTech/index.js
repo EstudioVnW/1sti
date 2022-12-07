@@ -17,6 +17,7 @@ function Insights() {
         to deep tech which has been created to elevate value propositions,
         scale platforms and amplify the impact of organisations.'
         buttonText='Saiba mais'
+        route='https://deeptechamplified.com/'
       >
         <SubTitle>
           Deep Tech and the Amplified Organisation provides readers with a powerful

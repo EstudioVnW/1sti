@@ -13,6 +13,7 @@ function Insights() {
         title='Insights'
         subTitle='A abordagem Deep Tech para temas do presente e futuro.'
         buttonText='Acesse nosso arquivo'
+        route='/insights'
       >
         <SubTitle>
           A abordagem Deep Tech para temas do presente e futuro.

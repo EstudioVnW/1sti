@@ -1,5 +1,8 @@
+import { useNavigate } from 'react-router-dom';
+
 import Button from '../../Buttons';
 import Title from '../../Title/TextBreak';
+
 import * as S from './styles';
 
 function SideBox({
@@ -7,25 +10,30 @@ function SideBox({
   height,
   full,
   title,
-  secondTitle,
+  route,
   children,
-  buttonText
+  buttonText,
+  secondTitle
 }) {
+  const navigate = useNavigate();
+
   return (
     <S.Container
-     width={width}
-     height={height}
-     full={full}
+      width={width}
+      height={height}
+      full={full}
     >
-      <Title 
+      <Title
         title={title}
         secondTitle={secondTitle}
       />
-      { children }
+      {children}
       {buttonText && (
-        <Button>
-          {buttonText}
-        </Button>
+        <a href={route}>
+          <Button>
+            {buttonText}
+          </Button>
+        </a>
       )}
     </S.Container>
   );

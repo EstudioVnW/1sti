@@ -1,15 +1,19 @@
 import {
-  arrowUpBlue,
   redArrow,
   whiteArrow,
 } from '../../assets';
 
 import styled from 'styled-components'
 
+export const Container = styled.div`
+  background: var(--color_lightBlack);
+`;
+
 export const Header = styled.header`
+  margin: auto;
   padding: 7rem 3rem 5.625rem 5.8rem;
   width: 100vw;
-  background: var(--color_lightBlack);
+  max-width: 1440px;
 
   @media(max-width: 768px) {
     padding: 7rem 3.188rem 4.188rem 3.188rem;
@@ -53,10 +57,11 @@ export const TextEmail = styled(HeaderSubtitle)`
 `
 
 export const Main = styled.main`
+  margin: auto;
   padding-left: 11rem;
   gap: 7.438rem;
   width: 100vw;
-  background: var(--color_lightBlack);
+  max-width: 1440px;
   
   @media(max-width: 768px) {
     padding-left: 3.18811rem;
@@ -102,20 +107,35 @@ export const Text = styled.p`
   border-bottom: ${props => props.ciano && `1px solid var(--color_ciano)`} ;
 `
 
-export const Underline = styled(Text)`
-  text-decoration: underline;
-  display: inline;
+export const ImgArrowUp = styled.img`
+  display: none;
+  padding-left: .5rem;
 `
 
-export const ContentRow = styled.div`
+export const Underline = styled.a`
+  padding-left: 0.5rem;
+  display: inline;
+  font-size: 1.25rem;
+  font-family: 'CabinetGrotesk-Medium';
+  color: var(--color_white);
+  background: transparent;
+  text-decoration: underline;
+  cursor: pointer;
+`
+
+export const ButtonDeep = styled.a`
   padding-top: .975rem;
   display: flex;
+  background: transparent;
+  text-decoration: none;
   cursor: pointer;
 
   :hover {
     p { font-weight: bold }
-    background: no-repeat 90% url(${arrowUpBlue});
     background-position-y: bottom;
+    img {
+      display: flex;
+    }
   }
 `
 

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 import Menu from '../../components/Header/Menu';
 import Footer from '../../components/Footer';
@@ -8,6 +9,7 @@ import {
   globe,
   redArrow,
   whiteArrow,
+  arrowUpBlue,
   bookDeepTech
 } from  '../../assets';
 
@@ -15,6 +17,7 @@ import * as S from './styles';
 
 function ContactScreen() {
   const [email, setEmail] = useState('');
+  const navigate = useNavigate();
 
   const handleChange = (ev) => {
     const { value } = ev.target;
@@ -48,10 +51,15 @@ function ContactScreen() {
           amplify your business through the New
           4Ps of platforms, purpose, people and planet.
         </S.Text>
-        <S.ContentRow>
+        <S.ButtonDeep
+          href="https://deeptechamplified.com"
+          target="_blank" 
+          rel="noreferrer"
+        >
           <img src={globe} alt='Icone de um globo' />
           <S.Text ciano>deeptechamplified.com</S.Text>
-        </S.ContentRow>
+          <S.ImgArrowUp src={arrowUpBlue} alt='Icon arrow up' />
+        </S.ButtonDeep>
         <S.ImgBook src={bookDeepTech} alt='Imagem do livro Deep Tech' />
       </S.ContentBox>
       <S.ContentBox>
@@ -76,21 +84,28 @@ function ContactScreen() {
         <S.Title>CAREERS</S.Title>
         <S.Text>
           Our positions are for everyone.
-          Explore our current open opportunities and <S.Underline>join us</S.Underline>!
+          Explore our current open opportunities and
+          <S.Underline 
+            href='https://1sti.solides.jobs/'
+            target="_blank" 
+            rel="noreferrer"
+          >
+            join us
+          </S.Underline>!
         </S.Text>
       </S.ContentBox>
     </S.Content>
   )
 
   return (
-    <>
+    <S.Container>
       <Menu />
         {renderContentContact()}
       <S.Main>
         {renderContent()}
       </S.Main>
       <Footer />
-    </>
+    </S.Container>
   );
 }
 

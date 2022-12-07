@@ -54,11 +54,6 @@ html {
   overflow-y: scroll;
 }
 
-button {
-  border: none;
-  outline: none;
-}
-
 :root {
   --color_white: #FFFFFF;
   --color_ice: #FAFAFA;
@@ -76,4 +71,13 @@ button {
 
 ::-webkit-scrollbar {
   width: 0;
+}
+
+button {
+  border: none;
+  outline: none;
+}
+
+a {
+  text-decoration: none;
 }

@@ -24,6 +24,19 @@ export const Content = styled.div`
   padding-right: 2rem;
   text-align: center;
 
+  :hover {
+    h3 {
+      text-decoration: underline;
+    }
+
+    img {
+      -webkit-transform: scale(1.05);
+      -ms-transform: scale(1.05);
+      transform: scale(1.05);
+      transition: .3s;
+    }
+  }
+
   @media(max-width: 950px) {
     padding-right: 1rem;
     width: 100vw;

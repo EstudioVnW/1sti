@@ -52,7 +52,13 @@ function Footer() {
         <S.Box order='3'>
           <S.Text fontSize='1.625rem' paddingBottom='1rem'>Come work with us!</S.Text>
           <S.Text fontSize='1.125rem' paddingBottom='1.5rem'>We are always looking for talent to empower deep tech transformations.</S.Text>
-          <Button>See openings</Button>
+          <a
+            href="https://1sti.solides.jobs/vacancies"
+            target="_blank" 
+            rel="noreferrer"
+          >
+            <Button>See openings</Button>
+          </a>
         </S.Box>
       </S.Content>
     </S.Container>
