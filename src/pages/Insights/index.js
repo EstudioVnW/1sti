@@ -1,4 +1,4 @@
-import Insights from './Insights';
+import Insights from './ContentInsights';
 import Footer from '../../components/Footer';
 import Menu from '../../components/Header/Menu';
 

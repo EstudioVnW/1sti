@@ -13,8 +13,8 @@ function Insights() {
   return (
     <S.Container>
       <S.Content>
-        <Title>Insights</Title>
-        <S.ContentInsights>
+        <Title colorBlack>Insights</Title>
+        <S.ContentWrap>
           <S.Figure>
             <S.ImageInsights
               mobile
@@ -42,24 +42,46 @@ function Insights() {
               </S.SubTitle>
             </S.Figcaption>
           </S.Figure>
-        </S.ContentInsights>
+        </S.ContentWrap>
 
-        {/* <div>
-            <div>
-              <S.Image src={girls} alt='Foto de uma abelha em cima de uma flor' mobile />
+        <S.ContentWrap second>
+          <S.Figure>
+            <S.Image src={girls} alt='Foto de uma abelha em cima de uma flor' mobile />
+            <S.FrigcArticle>
               <S.Title>ARTICLE</S.Title>
               <S.Text>
-                Educational Backbone: new digital operational model
+                Educational Backbone and a new digital operational model
               </S.Text>
-            </div>
-            <div>
-              <S.Image src={girls} alt='Foto de uma abelha em cima de uma flor' mobile />
+            </S.FrigcArticle>
+          </S.Figure>
+          <S.Figure>
+            <S.Image src={girls} alt='Foto de uma abelha em cima de uma flor' mobile />
+            <S.FrigcArticle>
+              <S.Title>EDITORIAL</S.Title>
+              <S.Text>
+                Digital Horizon
+              </S.Text>
+            </S.FrigcArticle>
+          </S.Figure>
+          <S.Figure>
+            <S.Image src={girls} alt='Foto de uma abelha em cima de uma flor' mobile />
+            <S.FrigcArticle>
               <S.Title>EDITORIAL</S.Title>
               <S.Text>
                 Subverting the game logic
               </S.Text>
-            </div>
-          </div> */}
+            </S.FrigcArticle>
+          </S.Figure>
+          <S.Figure>
+            <S.Image src={girls} alt='Foto de uma abelha em cima de uma flor' mobile />
+            <S.FrigcArticle>
+              <S.Title>EDITORIAL</S.Title>
+              <S.Text>
+                Subverting the game logic
+              </S.Text>
+            </S.FrigcArticle>
+          </S.Figure>
+        </S.ContentWrap>
       </S.Content>
     </S.Container>
   );
