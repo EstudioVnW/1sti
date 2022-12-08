@@ -9,7 +9,7 @@ import {
 } from '../../../assets';
 
 import * as S from './styles';
-import { Link, useLocation } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 
 function Menu() {
   const [isOpenMenu, setIsOpenMenu] = useState(false);
@@ -29,12 +29,8 @@ function Menu() {
       nameRoute: 'Insights',
     },
     {
-      to: '/carreiras',
+      to: 'https://1sti.solides.jobs/',
       nameRoute: 'Carreiras',
-    },
-    {
-      to: '/ecossistema',
-      nameRoute: 'Ecossistema',
     },
     {
       to: '/contato',
@@ -60,17 +56,21 @@ function Menu() {
     const currentPage = pathname === item.to;
 
     return (
-      <S.List border={currentPage} key={idx} >
-        <Link to={item.to}>
+      <S.List border={currentPage} key={idx}>
+        <a
+          href={item.to}
+          target={item.nameRoute === 'Carreiras' && "_blank"}
+          rel="noreferrer"
+        >
           {item.nameRoute}
-        </Link>
+        </a>
       </S.List>
     )
   }
 
   return (
     <S.Container isOpenMenu={isOpenMenu}>
-      <S.ContainerTexts>
+      <S.Nav>
         <S.ContainerLogo>
           <S.Logo src={logo} alt='Logo 1sti' />
           <S.Figure>
@@ -85,7 +85,7 @@ function Menu() {
           </S.Ul>
           <SocialNetworks />
         </S.ContentMenu>
-      </S.ContainerTexts>
+      </S.Nav>
     </S.Container>
   );
 }

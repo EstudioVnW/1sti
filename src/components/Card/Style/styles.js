@@ -58,9 +58,9 @@ export const Text = styled.h4`
 `;
 
 export const Button = styled.button`
-  display: flex;
   position: absolute;
   bottom: 3.708rem;
+  display: flex;
   background: transparent;
   cursor: pointer;
 `;
@@ -70,5 +70,5 @@ export const ButtonText = styled.p`
   font-size: 1.25rem;
   font-weight: 500;
   font-family: 'CabinetGrotesk-Medium';
-  color: var(--color_purple);
+  color: var(--color_lightPurple);
 `;

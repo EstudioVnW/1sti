@@ -11,7 +11,7 @@ export const Container = styled.div`
   z-index: 2;
 `
 
-export const ContainerTexts = styled.div`
+export const Nav = styled.nav`
   margin: auto;
   max-width: 1440px;
   padding: 0 4.625rem 0 5.625rem;
