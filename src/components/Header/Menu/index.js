@@ -81,7 +81,7 @@ function Menu() {
         <S.ContentMenu isOpenMenu={isOpenMenu}>
           <S.Ul isOpenMenu={isOpenMenu}>
             {listMenu.map((i, idx) => renderLink(i, idx))}
-            <S.List fontRegular> EN </S.List>
+            {/* <S.List fontRegular> EN </S.List> */}
           </S.Ul>
           <SocialNetworks />
         </S.ContentMenu>

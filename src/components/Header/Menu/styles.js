@@ -13,13 +13,17 @@ export const Container = styled.div`
 
 export const Nav = styled.nav`
   margin: auto;
-  max-width: 1440px;
   padding: 0 4.625rem 0 5.625rem;
+  width: 90%;
+  max-width: 1440px;
   height: 4.625rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   
+  @media(max-width: 768px) {
+  }
+
   @media(max-width: 768px) {
     padding: 0;
     height: ${props => props.isOpenMenu && '100vh'};

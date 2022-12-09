@@ -9,8 +9,6 @@ export const Container = styled.header`
 `;
 
 export const Video = styled.video`
-  position: absolute;
-  top: 0;
   width: 100vw;
   height: 100vh;
 

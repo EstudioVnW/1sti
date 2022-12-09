@@ -1,5 +1,3 @@
-import { useNavigate } from 'react-router-dom';
-
 import Button from '../../Buttons';
 import Title from '../../Title/TextBreak';
 
@@ -15,7 +13,6 @@ function SideBox({
   buttonText,
   secondTitle
 }) {
-  const navigate = useNavigate();
 
   return (
     <S.Container
