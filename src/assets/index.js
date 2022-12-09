@@ -44,6 +44,9 @@ export { default as platforms } from './imagens/services/platforms.png';
 export { default as analystics } from './imagens/deep_analystics.png';
 export { default as backbones } from './imagens/services/backbones.png';
 export { default as pageNotFound } from './imagens/pageNotFound_img.png';
+export { default as insightsIdeia } from './imagens/insights-ideia.jpg';
+export { default as insightsDeeptech } from './imagens/insights-deeptech.svg';
+export { default as girls } from './imagens/girls.png';
 
 //Imagens Icons innovation
 export { default as innovation } from './imagens/services/innovation/innovation.svg';

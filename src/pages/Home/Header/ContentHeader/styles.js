@@ -49,12 +49,4 @@ export const ContentButton  = styled.div`
   display: flex;
   flex-wrap: wrap;
   z-index: 1;
-  
-  /* button {
-    margin: 2.438rem 1.875rem 0 0;
-
-    @media(max-width: 768px) {
-      margin-right: 1.563rem 0 .5rem 0;
-    }
-  } */
 `;

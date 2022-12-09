@@ -5,16 +5,25 @@ export const Container = styled.div`
   top: .625rem;
   left: 0;
   right: 0;
-  padding: 0 4.625rem 0 5.625rem;
   width: 100vw;
-  height: 4.625rem;
   background-color: var(--color_grey01);
+  opacity: 90%;
+  z-index: 2;
+`
+
+export const Nav = styled.nav`
+  margin: auto;
+  padding: 0 4.625rem 0 5.625rem;
+  width: 90%;
+  max-width: 1440px;
+  height: 4.625rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  opacity: 90%;
-  z-index: 2;
   
+  @media(max-width: 768px) {
+  }
+
   @media(max-width: 768px) {
     padding: 0;
     height: ${props => props.isOpenMenu && '100vh'};
@@ -90,6 +99,7 @@ export const ContentMenu = styled.div`
     overflow: scroll;
   }
 `
+
 export const Ul = styled.ul`
   display: flex;
 

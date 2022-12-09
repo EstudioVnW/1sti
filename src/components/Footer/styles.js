@@ -25,6 +25,15 @@ export const Box = styled.div`
     display: flex;
   `}
 
+  :hover {
+    button {
+      color: var(--color_white);
+      background-color: transparent;
+      border: 1px solid var(--color_white);
+      transition: .3s;
+    }
+  }
+
   @media(max-width: 768px) {
     width: ${props => props.logo ? 'initial' : '20rem'};
     align-items: flex-end;
@@ -36,8 +45,6 @@ export const Box = styled.div`
       margin-top: 0;
     }
   }
-
-
 `;
 
 export const LogoPactoGlobal = styled.img`

@@ -1,8 +1,8 @@
 import * as S from './styles';
 
-function Title({ children }) {
+function Title({ colorBlack, children }) {
   return (
-    <S.Title> {children} </S.Title>
+    <S.Title colorBlack={colorBlack}> {children} </S.Title>
   );
 }
 

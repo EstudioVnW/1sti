@@ -20,9 +20,11 @@ function ContentHeader({ handleClick }) {
       <Button hasIcon onClick={handleClick}>
         Entenda Deep Tech
       </Button>
-      <Button noColor>
-        Nossos clientes
-      </Button>
+      <a href='#ActiveJourneys'>
+        <Button noColor>
+          Nossos clientes
+        </Button>
+      </a>
     </S.ContentButton>
   )
 

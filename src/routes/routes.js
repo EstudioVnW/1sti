@@ -11,6 +11,8 @@ import DeepTechInnovation from '../pages/DeepTechInnovation';
 import DigitalBackbones from '../pages/DigitalBackbones';
 import DeepAnalytics from '../pages/DeepAnalytics';
 import Contact from '../pages/Contact';
+import Insights from '../pages/Insights';
+
 import PageNotFound from '../pages/PageNotFound';
 
 const NavigateRoutes = () => {
@@ -49,6 +51,10 @@ const NavigateRoutes = () => {
         <Route
           path='/contato'
           element={<Contact />}
+        />
+        <Route
+          path='/insights'
+          element={<Insights />}
         />
         
         <Route
