@@ -16,31 +16,35 @@ function Insights() {
         <Title colorBlack>Insights</Title>
         <S.ContentWrap>
           <S.Figure>
-            <S.ImageInsights
-              mobile
-              src={insightsIdeia}
-              alt='Foto de uma abelha em cima de uma flor'
-            />
+            <S.ContImage>
+              <S.ImageInsights
+                mobile
+                src={insightsIdeia}
+                alt='Foto de uma abelha em cima de uma flor'
+              />
             <S.Figcaption>
               <S.Title>ARTICLE</S.Title>
               <S.SubTitle>
                 What is Augmented Agility?
               </S.SubTitle>
             </S.Figcaption>
+            </S.ContImage>
           </S.Figure>
           <S.Figure editorial>
-            <S.ImageInsights
-              mobile
-              editorial
-              src={futureOfEducation}
-              alt='Foto de uma abelha em cima de uma flor'
-            />
-            <S.Figcaption>
+            <S.ContImage editorial>
+              {/* <S.ImageInsights
+                mobile
+                editorial
+                src={futureOfEducation}
+                alt='Foto de uma abelha em cima de uma flor'
+              /> */}
+            <S.Figcaption editorial>
               <S.Title editorial>EDITORIAL</S.Title>
               <S.SubTitle editorial>
                 Deep Tech and the future of education
               </S.SubTitle>
             </S.Figcaption>
+            </S.ContImage>
           </S.Figure>
         </S.ContentWrap>
 
